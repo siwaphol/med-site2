@@ -82,7 +82,7 @@
 
 
     <!--Tab Home,Faculty,Researcgh,Seminar,Contact Us-->
-    <div class="row visible hidden-xs" id="navmenu">
+    <div class="row visible" id="navmenu">
       <nav>
         <ul class="nav nav-justified">
           <li style="font-size:11px"><a href="#">Home</a></li>
