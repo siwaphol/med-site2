@@ -21,7 +21,7 @@ Route::get("test", function() {
 
 Route::get("ball", function()
 {
-	return "route 12345";
+	return view('test');
 });
 /*
 |--------------------------------------------------------------------------
