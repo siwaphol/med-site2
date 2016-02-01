@@ -86,7 +86,7 @@
       <nav>
         <ul class="nav nav-justified">
           <li style="font-size:11px"><a href="#">Home</a></li>
-          <li style="font-size:11px"><a href="#">Faculty & Staff</a></li>
+          <li style="font-size:11px"><a href="{{url('browse')}}">Faculty & Staff</a></li>
           <li style="font-size:11px"><a href="#">Research</a></li>
           <li style="font-size:11px"><a href="#">Education & Training</a></li>
           <li style="font-size:11px"><a href="#">Seminars</a></li>
@@ -112,7 +112,7 @@
       </h4>
       <ul class="nav nav-tabs nav-stacked">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Faculty & Staff</a></li>
+        <li><a href="{{url('browse')}}">Faculty & Staff</a></li>
         <li><a href="#">Department Faculty</a></li>
         <li><a href="#">Administrative Staff</a></li>
         <li><a href="#">Baxter Lab</a></li>
