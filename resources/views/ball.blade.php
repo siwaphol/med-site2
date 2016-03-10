@@ -131,7 +131,7 @@
           </p>
       </div>
       <hr>
-      <br><br>
+      <br>
       <!-- news -->
       <hr>
       <div class="row-md-6">
@@ -141,6 +141,7 @@
         <center>
           <img src="{{asset("images/02.jpg")}}" width="258" height="258">
           <br>
+          <h2>Head</h2>
           <p>description</p>
           <hr>
         </center>
@@ -149,6 +150,7 @@
         <center>
           <img src="{{asset("images/02.jpg")}}" width="258" height="258">
           <br>
+          <h2>Head</h2>
           <p>description</p>
           <hr>
         </center>
@@ -157,6 +159,7 @@
         <center>
           <img src="{{asset("images/02.jpg")}}" width="258" height="258">
           <br>
+          <h2>Head</h2>
           <p>description</p>
           <hr>
         </center>
