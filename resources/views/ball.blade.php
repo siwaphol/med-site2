@@ -137,7 +137,7 @@
       <div class="row-md-6">
       <h4>Latest News</h4>
       <hr>
-        <div class="col-md-4">
+        <div class="col-md-6">
         <center>
           <img src="{{asset("images/02.jpg")}}" width="258" height="258">
           <br>
@@ -146,16 +146,7 @@
           <hr>
         </center>
         </div>
-        <div class="col-md-4">
-        <center>
-          <img src="{{asset("images/02.jpg")}}" width="258" height="258">
-          <br>
-          <h2>Head</h2>
-          <p>description</p>
-          <hr>
-        </center>
-        </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
         <center>
           <img src="{{asset("images/02.jpg")}}" width="258" height="258">
           <br>
