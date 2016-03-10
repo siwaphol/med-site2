@@ -155,9 +155,7 @@
           <hr>
         </center>
         </div>
-      </div>
-      <div class="row-md-6">
-      <h4>Latest News</h4>
+        <h4>Latest News</h4>
       <hr>
         <div class="col-md-6">
         <center>
