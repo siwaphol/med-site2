@@ -131,23 +131,24 @@
           </p>
       </div>
       <hr>
+      
       <!-- new line--> <br><br>
+      <div class="row">
+      <h4>Latest News</h4>
+      <hr>
         <div class="col-md-4">
-          <div class="row-md-6">
-          22
-          </div>
+          <img src="{{asset("images/02.jpg")}}">
+           description
         </div>
         <div class="col-md-4">
-          <div class="row-md-6">
-          33
-          </div>
+          <img src="{{asset("images/02.jpg")}}">
+          description
         </div>
         <div class="col-md-4">
-          <div class="row-md-6">
-          44
-          </div>
+          <img src="{{asset("images/02.jpg")}}">
+          description
         </div>
-
+      </div>
 
       </div>
     </div>
