@@ -156,6 +156,28 @@
         </center>
         </div>
       </div>
+      <div class="row-md-6">
+      <h4>Latest News</h4>
+      <hr>
+        <div class="col-md-6">
+        <center>
+          <img src="{{asset("images/02.jpg")}}" width="300" height="258">
+          <br>
+          <h4>News Head</h4>
+          <p style="font-size: 13px;">description</p>
+          <hr>
+        </center>
+        </div>
+        <div class="col-md-6">
+        <center>
+          <img src="{{asset("images/02.jpg")}}" width="300" height="258">
+          <br>
+          <h4>News Head</h4>
+          <p style="font-size: 13px;">description</p>
+          <hr>
+        </center>
+        </div>
+      </div>
       <!--end news-->
 
       </div>
