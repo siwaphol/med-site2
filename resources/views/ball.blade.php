@@ -131,10 +131,12 @@
           </p>
       </div>
       <hr>
-
+      <br><br>
       <!-- news -->
+      <hr>
       <div class="row-md-6">
       <h4>Latest News</h4>
+      <hr>
         <div class="col-md-4">
         <center>
           <img src="{{asset("images/02.jpg")}}" width="258" height="258">
@@ -144,12 +146,20 @@
         </center>
         </div>
         <div class="col-md-4">
-          <img src="{{asset("images/02.jpg")}}">
-          description
+        <center>
+          <img src="{{asset("images/02.jpg")}}" width="258" height="258">
+          <br>
+          <p>description</p>
+          <hr>
+        </center>
         </div>
         <div class="col-md-4">
-          <img src="{{asset("images/02.jpg")}}">
-          description
+        <center>
+          <img src="{{asset("images/02.jpg")}}" width="258" height="258">
+          <br>
+          <p>description</p>
+          <hr>
+        </center>
         </div>
       </div>
       <!--end news-->
