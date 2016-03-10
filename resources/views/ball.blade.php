@@ -134,17 +134,17 @@
       <!-- new line--> <br><br>
         <div class="col-md-4">
           <div class="row-md-6">
-          gg
+          22
           </div>
         </div>
         <div class="col-md-4">
           <div class="row-md-6">
-          dd
+          33
           </div>
         </div>
         <div class="col-md-4">
           <div class="row-md-6">
-          ss
+          44
           </div>
         </div>
 
