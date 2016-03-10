@@ -139,19 +139,19 @@
       <hr>
         <div class="col-md-6">
         <center>
-          <img src="{{asset("images/02.jpg")}}" width="258" height="258">
+          <img src="{{asset("images/02.jpg")}}" width="300" height="258">
           <br>
-          <h5>Head</h5>
-          <p>description</p>
+          <h4>News Head</h4>
+          <p style="font-size: 13px;">description</p>
           <hr>
         </center>
         </div>
         <div class="col-md-6">
         <center>
-          <img src="{{asset("images/02.jpg")}}" width="258" height="258">
+          <img src="{{asset("images/02.jpg")}}" width="300" height="258">
           <br>
-          <h5>Head</h5>
-          <p>description</p>
+          <h4>News Head</h4>
+          <p style="font-size: 13px;">description</p>
           <hr>
         </center>
         </div>
