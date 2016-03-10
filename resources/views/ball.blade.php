@@ -142,7 +142,6 @@
       </div>
     </div>
 
-asdfkasdgh;asdljgksadl;jgf
     
     <!--List Bottom-->
     <ul class ="pager">
