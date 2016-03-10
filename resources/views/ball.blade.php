@@ -102,6 +102,23 @@
 <!-- end Carousel -->
 
 
+<<<<<<< HEAD
+=======
+    <!--Tab Home,Faculty,Researcgh,Seminar,Contact Us-->
+    <div class="row visible" id="navmenu">
+      <nav>
+        <ul class="nav nav-justified">
+          <li style="font-size:11px"><a href="#">Home</a></li>
+          <li style="font-size:11px"><a href="{{url('browse')}}">Faculty & Staff</a></li>
+          <li style="font-size:11px"><a href="#">Research</a></li>
+          <li style="font-size:11px"><a href="#">Education & Training</a></li>
+          <li style="font-size:11px"><a href="#">Seminars</a></li>
+          <li style="font-size:11px"><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div> <!-- End div.menu -->
+
+>>>>>>> d744b0fb891c0a073ca852897a3af82a046d2d12
 
 
     <!-- Breadcrum to show curren page -->
@@ -119,7 +136,11 @@
       </h4>
       <ul class="nav nav-tabs nav-stacked">
         <li><a href="#">Home</a></li>
+<<<<<<< HEAD
         <li><a href="#">Faculty</a></li>
+=======
+        <li><a href="{{url('browse')}}">Faculty & Staff</a></li>
+>>>>>>> d744b0fb891c0a073ca852897a3af82a046d2d12
         <li><a href="#">Department Faculty</a></li>
         <li><a href="#">Administrative Staff</a></li>
         <li><a href="#">Curriculum</a></li>
