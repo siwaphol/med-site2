@@ -155,8 +155,6 @@
           <hr>
         </center>
         </div>
-        <h4>Latest News</h4>
-      <hr>
         <div class="col-md-6">
         <center>
           <img src="{{asset("images/02.jpg")}}" width="300" height="258">
