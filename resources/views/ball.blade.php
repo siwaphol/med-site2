@@ -147,8 +147,8 @@
               <br><br>
               The Department was founded almost 100 years ago and has gone by a number of names since that time, each reflecting a particular stage in the evolution of medicine and the life sciences. Our current name was granted by the University in 1987 when the Department made a major push to expand its focus into the complex interplay between microbe and host. This is a unifying theme that permeates the Department’s research and teaching and that only seems to be growing in relevance with each passing year.
           </p>
-      <hr>
       </div>
+      <hr>
       </div>
     </div>
     
