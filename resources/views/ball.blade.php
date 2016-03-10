@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Front page</title>
+  <title>MICROBIOLOGY</title>
   <link rel="stylesheet" href="{{asset("css/custom-bootstrap.css")}}">
   <link rel="stylesheet" href="{{asset("css/custom.css")}}">
 
@@ -43,8 +44,28 @@
   </nav> <!-- end fixed navbar -->
 
 
-  <!-- Begin page content -->
-  <div class="container">
+<div class="container-fluid">
+<!--CMU LOGO-->
+<br><br>
+<img  src="{{asset("images/cmu_logo.jpg")}}">
+<br>
+<!---end logo-->
+
+
+    <!--Tab Home,Faculty,Researcgh,Seminar,Contact Us-->
+    <div class="row visible" id="navmenu">
+      <nav>
+        <ul class="nav nav-justified">
+          <li style="font-size:11px"><a href="#">Home</a></li>
+          <li style="font-size:11px"><a href="#">Faculty & Staff</a></li>
+          <li style="font-size:11px"><a href="#">Research</a></li>
+          <li style="font-size:11px"><a href="#">Education & Training</a></li>
+          <li style="font-size:11px"><a href="#">Seminars</a></li>
+          <li style="font-size:11px"><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div> <!-- End div.menu -->
+
 
     <!-- Carousel -->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -81,20 +102,6 @@
 <!-- end Carousel -->
 
 
-    <!--Tab Home,Faculty,Researcgh,Seminar,Contact Us-->
-    <div class="row visible" id="navmenu">
-      <nav>
-        <ul class="nav nav-justified">
-          <li style="font-size:11px"><a href="#">Home</a></li>
-          <li style="font-size:11px"><a href="#">Faculty & Staff</a></li>
-          <li style="font-size:11px"><a href="#">Research</a></li>
-          <li style="font-size:11px"><a href="#">Education & Training</a></li>
-          <li style="font-size:11px"><a href="#">Seminars</a></li>
-          <li style="font-size:11px"><a href="#">Contact Us</a></li>
-        </ul>
-      </nav>
-    </div> <!-- End div.menu -->
-
 
 
     <!-- Breadcrum to show curren page -->
@@ -108,14 +115,14 @@
     <div class="row">
       <!-- List Manu Left-->
       <div class="col-md-4">
-      <h4 style="font-size: 18px;">MICROBIOLOGY & IMMUNOLOGY  <!--Head-->
+      <h4 style="font-size: 18px;">MICROBIOLOGY <!--Head-->
       </h4>
       <ul class="nav nav-tabs nav-stacked">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Faculty & Staff</a></li>
+        <li><a href="#">Faculty</a></li>
         <li><a href="#">Department Faculty</a></li>
         <li><a href="#">Administrative Staff</a></li>
-        <li><a href="#">Baxter Lab</a></li>
+        <li><a href="#">Curriculum</a></li>
         <li><a href="#">Research</a></li>
         <li><a href="#">Education & Training</a></li>
         <li><a href="#">Seminars</a></li>
@@ -124,20 +131,26 @@
       
       </div>
       <!--End List-->
-      <div class="col-md-4">
+      <div class="col-md-10">
+
+      <div class="row-md-6">
         <h4>Our Mission</h4>
+        <br><sr>
           <p style="font-size: 14px;">The mission of the Department of Microbiology and Immunology is to conduct the best possible research and provide the most rigorous and inspiring training in the areas of microbiology, immunology, host-pathogen interaction and related fields. Through such activities, our goal is to improve human and animal health as well as to improve our ability to be responsible stewards of a fragile earth. Through this website, we hope to present an overview of our research and training activities and to inspire like-minded individuals to join us in our quest.
           <a href="#">More >></a>
           </p>
         
       </div>
-      <div class="col-md-4">
+      
+      <div class="row-md-6">
         <h4>ABOUT US</h4>
+        <br><sr>
           <p style="font-size: 10px;">The Department of Microbiology and Immunology is a community of over 200 individuals, all of whom share a common passion for research and learning. We have over 25 faculty among our ranks, ~50 graduate students, over 100 post-doctoral fellows, ~25 research, administrative and support staff and ~25 undergraduate and medical students working in labs. About 40% of our faculty have an M.D. and 70% a Ph.D. with most also holding joint appointments in other departments in the School.
               <br><br>
               The Department was founded almost 100 years ago and has gone by a number of names since that time, each reflecting a particular stage in the evolution of medicine and the life sciences. Our current name was granted by the University in 1987 when the Department made a major push to expand its focus into the complex interplay between microbe and host. This is a unifying theme that permeates the Department’s research and teaching and that only seems to be growing in relevance with each passing year.
           </p>
         
+      </div>
       </div>
     </div>
     
