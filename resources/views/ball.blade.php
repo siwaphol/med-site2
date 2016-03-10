@@ -69,6 +69,7 @@
 
     <!-- Carousel -->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <center>
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -78,7 +79,6 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-  <center>
     <div class="item active">
       <img src="{{asset("images/micro_test.jpg")}}">
     </div>
@@ -88,7 +88,6 @@
     <div class="item">
       <img src="{{asset("images/micro_test.jpg")}}">
     </div>
-  </center>
   </div>
 
   <!-- Controls -->
@@ -100,6 +99,7 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+  </center>
 </div>
 <!-- end Carousel -->
 
