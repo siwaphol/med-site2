@@ -136,9 +136,12 @@
       <div class="row-md-6">
       <h4>Latest News</h4>
         <div class="col-md-4">
+        <center>
           <img src="{{asset("images/02.jpg")}}" width="258" height="258">
           <br>
-           description
+          <p>description</p>
+          <hr>
+        </center>
         </div>
         <div class="col-md-4">
           <img src="{{asset("images/02.jpg")}}">
