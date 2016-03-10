@@ -103,16 +103,6 @@
 </div>
 <!-- end Carousel -->
 
-
-
-    <!-- Breadcrum to show curren page -->
-    <div class="row" id="breadcrum">
-      <ol class="breadcrumb">
-        <li><a href="#">Medicine</a></li>
-        <li><a href="#">Department</a></li>
-      </ol>
-    </div> <!-- End div.breadcrum -->
-
     <div class="row">
       <!-- List Manu Left-->
       <div class="col-md-2">
