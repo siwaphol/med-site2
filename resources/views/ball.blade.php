@@ -132,11 +132,10 @@
       </div>
       <hr>
 
-      <!-- new line--> <br><br>
+      <!-- news -->
       <div class="row-md-6">
       <h4>Latest News</h4>
-      <hr>
-        <div class="col-md-4 contrainer">
+        <div class="col-md-4" style="max-width: 100%;">
           <img src="{{asset("images/02.jpg")}}">
            description
         </div>
@@ -149,6 +148,7 @@
           description
         </div>
       </div>
+      <!--end news-->
 
       </div>
     </div>
