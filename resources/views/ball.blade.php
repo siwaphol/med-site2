@@ -12,15 +12,7 @@
   
   <!-- Fixed navbar -->
   <nav class="navbar navbar-default navbar-fixed-top navbar-xs">
-    <div class="container">
-      <div class="navbar-header navbar-right">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
+    <div class="container" >
       <div id="navbar" class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
           <li><a href="#">Home</a></li>
@@ -133,15 +125,33 @@
       
       <div class="row-md-6">
         <h4>ABOUT US</h4>
-          <p style="font-size: 10px;">The Department of Microbiology and Immunology is a community of over 200 individuals, all of whom share a common passion for research and learning. We have over 25 faculty among our ranks, ~50 graduate students, over 100 post-doctoral fellows, ~25 research, administrative and support staff and ~25 undergraduate and medical students working in labs. About 40% of our faculty have an M.D. and 70% a Ph.D. with most also holding joint appointments in other departments in the School.
+          <p style="font-size: 12px;">The Department of Microbiology and Immunology is a community of over 200 individuals, all of whom share a common passion for research and learning. We have over 25 faculty among our ranks, ~50 graduate students, over 100 post-doctoral fellows, ~25 research, administrative and support staff and ~25 undergraduate and medical students working in labs. About 40% of our faculty have an M.D. and 70% a Ph.D. with most also holding joint appointments in other departments in the School.
               <br><br>
               The Department was founded almost 100 years ago and has gone by a number of names since that time, each reflecting a particular stage in the evolution of medicine and the life sciences. Our current name was granted by the University in 1987 when the Department made a major push to expand its focus into the complex interplay between microbe and host. This is a unifying theme that permeates the Department’s research and teaching and that only seems to be growing in relevance with each passing year.
           </p>
       </div>
       <hr>
+      <!-- new line--> <br><br>
+        <div class="col-md-4">
+          <div class="row-md-6">
+          gg
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row-md-6">
+          dd
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row-md-6">
+          ss
+          </div>
+        </div>
+
+
       </div>
     </div>
-jkdfshjdgfl;f;gjk;dgjkdsfklj;
+
     
     <!--List Bottom-->
     <ul class ="pager">
