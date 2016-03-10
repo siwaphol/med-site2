@@ -79,13 +79,13 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="{{asset("images/test.jpg")}}">
+      <img src="{{asset("images/micro_test.jpg")}}">
     </div>
     <div class="item">
-      <img src="{{asset("images/test.jpg")}}">
+      <img src="{{asset("images/micro_test.jpg")}}">
     </div>
     <div class="item">
-      <img src="{{asset("images/test.jpg")}}">
+      <img src="{{asset("images/micro_test.jpg")}}">
     </div>
   </div>
 
