@@ -131,12 +131,12 @@
           </p>
       </div>
       <hr>
-      
+
       <!-- new line--> <br><br>
-      <div class="row">
+      <div class="row-md-6">
       <h4>Latest News</h4>
       <hr>
-        <div class="col-md-4">
+        <div class="col-md-4 contrainer">
           <img src="{{asset("images/02.jpg")}}">
            description
         </div>
