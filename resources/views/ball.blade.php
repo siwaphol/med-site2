@@ -58,7 +58,7 @@
       </nav>
     </div> <!-- End div.menu -->
 
-    <br>
+
     <!-- Carousel -->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <center>
@@ -135,7 +135,7 @@
       <!-- news -->
       <hr>
       <div class="row-md-6">
-      <h4>Latest News</h4>
+      <h4>NEWS</h4>
       <hr>
         <div class="col-md-6">
         <center>
