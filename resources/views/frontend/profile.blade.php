@@ -29,9 +29,11 @@
               </a>
             </span>
 
-            <a class="brand" href="#">
-              <span class="my-logo">Logo |</span>
-              <span class="second-logo">Profiles</span>
+            <a class="brand" href="{{url("/")}}">
+              <span class="my-logo">
+                <span class="my-logo"><img  src="{{asset("images/logo.png")}}"></span>
+              </span>
+              <span class="second-logo" style="margin-left: 20px;margin-top: 10px;"> Profiles</span>
             </a>
 
             <div class="nav-sidebar hidden-phone">
@@ -120,7 +122,7 @@
 
                 <div class="row-fluid">
                   <div class="span8 page-content">
-                  <div id="clinicalFocusContent" class="content-section"><div><h3>Clinical Focus</h3>
+                  <div id="clinicalFocusContent" class="content-section"><div><h3>Research Focus</h3>
                     <hr>
                     <ul class="section-listing">
                         <li><span>Infectious Diseases, Pediatric</span></li>
@@ -128,20 +130,9 @@
                     </ul>
                     </div>
                     </div>
-                    <div id="academicAppointmentsContent" class="content-section"><div><h3>Academic Appointments</h3>
-                    <hr>
-                    <ul class="section-listing">
-                    <li class="section-list-item bulleted">
-                      <div class="description">Associate Professor, <a href="http://med.stanford.edu/pedsid/"> Pediatrics - Infectious Diseases</a></div>
-                    </li>
-                    <li class="section-list-item bulleted">
-                      <div class="description">Associate Professor, <a href="http://microimmuno.stanford.edu/" target="_blank"> Microbiology &amp; Immunology</a></div>
-                    </li>
-                    </ul>
-                    </div>
-                    </div>
+
                     <div id="professionalEducationContent" class="content-section">
-                      <h3>Professional Education</h3>
+                      <h3>Educations</h3>
                       <hr/>
                       <ul class="section-listing">
                         @foreach($userEducations as $aEd)
@@ -152,16 +143,6 @@
                       </ul>
                     </div>
 
-                    <div id="stanfordAdvisorsContent" class="content-section">
-                      <h3>Advisors</h3>
-                      <hr/>
-                      <ul class="section-listing">
-                        <li class="section-list-item">
-                          <div class="description"><a href="#profile/id">Advisor_First_Name Advisor_Last_Name</a>, <span>Postdoctoral Research Mentor</span></div>
-                        </li>
-                      </ul>
-                    </div>
-
                   </div>
                   <div class="span4 side-bar">
                     <div id="contactInfoContent" class="content-section contact-info bg-icon-user"><div><h3>Contact</h3>
@@ -169,7 +150,7 @@
                       <ul class="unstyled section-listing use-link-icons">
                         <li>
                           <div><span class="icon-background"><i class="icon-user"></i></span><div class="contact-info primary">
-                            <label>Academic</label>
+                            <label>Email</label>
                             <a href="mailto:email@cmu.ac.th" class="email" rel="nofollow" data-bypass="">email@cmu.ac.th</a>
                             <ul class="unstyled phone-number">
                             </ul>
@@ -177,7 +158,7 @@
                         </li>
                         <li>
                           <div><span class="icon-background"><i class="icon-stethoscope"></i></span><div class="contact-info clinical">
-                            <label>Clinical</label>
+                            <label>Office</label>
                             <span class="office-name">Office Name</span>
                             <span class="address">address1</span>
                             <span class="address2">address2</span>
@@ -235,7 +216,7 @@
                             </li>
                           </ul></div></div>
 
-                          <div id="stanfordAdviseesContent" class="content-section"><div><h3>Stanford Advisees</h3>
+                          <div id="stanfordAdviseesContent" class="content-section"><div><h3>Advisees</h3>
                             <hr>
                             <ul class="section-listing">
                               <li class="advisees-list-item">
@@ -272,7 +253,7 @@
                 <div id="publications" class="card tab-pane "><div><h2>Publications</h2>
 
                   <div class="row-fluid">
-                    <div class="span8 page-content">
+                    <div class="span12 page-content">
                       <div id="featuredPublicationsContent"></div>
                       <div id="allPublicationsContent"><div class="content-section"><h3>All Publications</h3>
                         <hr>
@@ -501,377 +482,13 @@
           <li><a class="view-100">100</a></li>
         </ul>
       </div>
-    </div></div>
+    </div>
+    </div>
   </div>
-  <div class="span4 side-bar">
-    <div id="navigatorContent" class="content-section navigator color-scheme-pub bg-icon-pub"><div class="all"><h3>Publications (42)</h3>
-      <hr>
-      <ul class="unstyled section-listing use-link-icons">
-        <li class="all">
-          <div class="icon-background"><i class="icon-align-justify"></i></div>
-          <a data-target="all">All Publications (42)</a>
-        </li>
-        <li class="featured">
-          <span class="icon-background"><i class="icon-star"></i></span>
-          <a data-target="featured">Featured Publications (19)</a>
-        </li>
-        <li class="articles">
-          <span class="icon-background"><i class="icon-file"></i></span>
-          <a data-target="articles">Journal Articles (40)</a>
-        </li>
-        <li class="proceedings">
-          <span class="icon-background"><i class="icon-file"></i></span>
-          <a data-target="proceedings">Conference Proceedings (2)</a>
-        </li>
-      </ul></div></div>
-      <div id="similarProfilesContent" class="content-section similar-profiles"><div><h3>Profiles With Related Publications</h3>
-        <hr>
-        <div class="content-section color-scheme-user bg-icon-user">
-          <ul class="unstyled section-listing">
-            <li class="mini-profile media">
-              <input type="radio" name="similar-profiles" id="similar-profiles/profiles/stanley-falkow">
-              <div class="media-body">
-                <a class="media-img" href="/profiles/stanley-falkow">
-                  <img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4488&amp;type=small" alt="Stanley Falkow">
-                </a>
-                <a href="/profiles/stanley-falkow" class="media-heading">
-                  <h4>Stanley Falkow</h4>
-                  <h5>Robert W. and Vivian K. Cahill Professor in Cancer Research, Emeritus</h5>
-                </a>
 
-
-
-                <div data-collapsible="similar-profiles4488" class="collapse"><p class="research-interests">
-                  <strong>Research Interests</strong>
-                  Dr. Falkow is no longer taking students or postdoctoral fellows in his laboratory.  He is actively engaged in undergraduate teaching and course development in the medical school
-                </p></div><div class="link-actions"><a data-bypass="" data-toggle="collapse" data-target="[data-collapsible=similar-profiles4488]"><i class="icon-caret-right"></i>More</a></div>
-                <div class="link-publications">
-                  <ul>
-                    <li><a class="publication-count" href="/profiles/stanley-falkow?tab=publications"><span>254</span> Total Publications</a></li>
-                  </ul>
+</div>
+                  </div>
                 </div>
-              </div>
-            </li><li class="mini-profile media">
-            <input type="radio" name="similar-profiles" id="similar-profiles/profiles/lucy-tompkins">
-            <div class="media-body">
-              <a class="media-img" href="/profiles/lucy-tompkins">
-                <img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4603&amp;type=small" alt="Lucy Tompkins">
-              </a>
-              <a href="/profiles/lucy-tompkins" class="media-heading">
-                <h4>Lucy Tompkins</h4>
-                <h5>Lucy Becker Professor in Medicine and of Microbiology and Immunology</h5>
-              </a>
-
-
-
-
-              <div data-collapsible="similar-profiles4603" class="collapse"><p class="clinical-focus">
-                <strong>Clinical Focus</strong>
-                Infectious Diseases,Internal Medicine,hospital epidemiology
-              </p><p class="research-interests">
-              <strong>Research Interests</strong>
-              Genetic and cellular basis of pathogenicity of Helicobacter pylori. Molecular epidemiology, hospital epidemiology, quality improvement in healthcare associated infections.
-            </p></div><div class="link-actions"><a data-bypass="" data-toggle="collapse" data-target="[data-collapsible=similar-profiles4603]"><i class="icon-caret-right"></i>More</a></div>
-            <div class="link-publications">
-              <ul>
-                <li><a class="publication-count" href="/profiles/lucy-tompkins?tab=publications"><span>59</span> Total Publications</a></li>
-              </ul>
-            </div>
-          </div>
-        </li><li class="mini-profile media">
-        <input type="radio" name="similar-profiles" id="similar-profiles/profiles/julie-theriot">
-        <div class="media-body">
-          <a class="media-img" href="/profiles/julie-theriot">
-            <img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4432&amp;type=small" alt="Julie Theriot">
-          </a>
-          <a href="/profiles/julie-theriot" class="media-heading">
-            <h4>Julie Theriot</h4>
-            <h5>Professor of Biochemistry and of Microbiology and Immunology</h5>
-          </a>
-
-
-
-          <div data-collapsible="similar-profiles4432" class="collapse"><p class="research-interests">
-            <strong>Research Interests</strong>
-            We study the interactions between infectious bacteria and the human host cell actin cytoskeleton. Listeria monocytogenes and Shigella flexneri are unrelated food-borne bacterial pathogens that share a common mechanism of invasion and actin-dependent intercellular spread in epithelial cells. Our studies fall into three broad areas: the biochemical basis of actin-based motility by these bacteria, the biophysical mechanism of force generation, and the evolutionary origin of pathogenesis.
-          </p></div><div class="link-actions"><a data-bypass="" data-toggle="collapse" data-target="[data-collapsible=similar-profiles4432]"><i class="icon-caret-right"></i>More</a></div>
-          <div class="link-publications">
-            <ul>
-              <li><a class="publication-count" href="/profiles/julie-theriot?tab=publications"><span>105</span> Total Publications</a></li>
-            </ul>
-          </div>
-        </div>
-      </li><li class="mini-profile media">
-      <input type="radio" name="similar-profiles" id="similar-profiles/profiles/julie-parsonnet">
-      <div class="media-body">
-        <a class="media-img" href="/profiles/julie-parsonnet">
-          <img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4495&amp;type=small" alt="Julie Parsonnet">
-        </a>
-        <a href="/profiles/julie-parsonnet" class="media-heading">
-          <h4>Julie Parsonnet</h4>
-          <h5>George DeForest Barnett Professor in Medicine and Professor of Health Research and Policy (Epidemiology)</h5>
-        </a>
-
-
-
-
-        <div data-collapsible="similar-profiles4495" class="collapse"><p class="clinical-focus">
-          <strong>Clinical Focus</strong>
-          Infectious Disease,Tuberculosis,Infectious Diarrheal Disease,Helicobacter,Parasitic Diseases
-        </p><p class="research-interests">
-        <strong>Research Interests</strong>
-        I am an infectious diseases epidemiologist who has done large field studies in both the US and developing countries.  We research the long-term consequences of chronic interactions between the human host and the microbial world.  My lab has done fundamental work establishing the role of H. pylori in causing disease and understanding its epidemiology.  Currently, our research dissects how and when children first encounter microbes and the long term effects of these exposures on health.
-      </p></div><div class="link-actions"><a data-bypass="" data-toggle="collapse" data-target="[data-collapsible=similar-profiles4495]"><i class="icon-caret-right"></i>More</a></div>
-      <div class="link-publications">
-        <ul>
-          <li><a class="publication-count" href="/profiles/julie-parsonnet?tab=publications"><span>155</span> Total Publications</a></li>
-        </ul>
-      </div>
-    </div>
-  </li><li class="mini-profile media">
-  <input type="radio" name="similar-profiles" id="similar-profiles/profiles/tessa-andermann">
-  <div class="media-body">
-    <a class="media-img" href="/profiles/tessa-andermann">
-      <img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=67591&amp;type=small" alt="Tessa Andermann">
-    </a>
-    <a href="/profiles/tessa-andermann" class="media-heading">
-      <h4>Tessa Andermann</h4>
-      <h5>Postdoctoral Medical fellow, Infectious Diseases</h5>
-    </a>
-    
-    
-    <div class="link-actions"></div>
-    <div class="link-publications">
-      <ul>
-        <li><a class="publication-count" href="/profiles/tessa-andermann?tab=publications"><span>3</span> Total Publications</a></li>
-      </ul>
-    </div>
-  </div>
-</li><li class="mini-profile media">
-<input type="radio" name="similar-profiles" id="similar-profiles/profiles/tobias-meyer">
-<div class="media-body">
-  <a class="media-img" href="/profiles/tobias-meyer">
-    <img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4007&amp;type=small" alt="Tobias Meyer">
-  </a>
-  <a href="/profiles/tobias-meyer" class="media-heading">
-    <h4>Tobias Meyer</h4>
-    <h5>Mrs. George A. Winzer Professor in Cell Biology</h5>
-  </a>
-
-
-
-  <div data-collapsible="similar-profiles4007" class="collapse"><p class="research-interests">
-    <strong>Research Interests</strong>
-    CELLULAR INFORMATION PROCESSING  The main problem in signal transduction is to understand how different receptor-stimuli specifically control diverse cell functions. We are using automated microscopy, live-cell fluorescent biosensors and perturbations of predicted signaling proteins to systematically dissect signaling networks.  This allows us to identify signaling modules and to elucidate and ultimately model the flow of cellular information.
-  </p></div><div class="link-actions"><a data-bypass="" data-toggle="collapse" data-target="[data-collapsible=similar-profiles4007]"><i class="icon-caret-right"></i>More</a></div>
-  <div class="link-publications">
-    <ul>
-      <li><a class="publication-count" href="/profiles/tobias-meyer?tab=publications"><span>138</span> Total Publications</a></li>
-    </ul>
-  </div>
-</div>
-</li><li class="mini-profile media">
-<input type="radio" name="similar-profiles" id="similar-profiles/profiles/kelley-yan">
-<div class="media-body">
-  <a class="media-img" href="/profiles/kelley-yan">
-    <img class="media-object pull-left" src="" alt="Kelley Yan">
-  </a>
-  <a href="/profiles/kelley-yan" class="media-heading">
-    <h4>Kelley Yan</h4>
-    <h5>Instructor, Medicine - Hematology</h5>
-  </a>
-
-
-  <div class="link-actions"></div>
-  <div class="link-publications">
-    <ul>
-      <li><a class="publication-count" href="/profiles/kelley-yan?tab=publications"><span>18</span> Total Publications</a></li>
-    </ul>
-  </div>
-</div>
-</li><li class="mini-profile media">
-<input type="radio" name="similar-profiles" id="similar-profiles/profiles/denise-monack">
-<div class="media-body">
-  <a class="media-img" href="/profiles/denise-monack">
-    <img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=8324&amp;type=small" alt="Denise M. Monack">
-  </a>
-  <a href="/profiles/denise-monack" class="media-heading">
-    <h4>Denise M. Monack</h4>
-    <h5>Associate Professor of Microbiology and Immunology</h5>
-  </a>
-
-
-
-  <div data-collapsible="similar-profiles8324" class="collapse"><p class="research-interests">
-    <strong>Research Interests</strong>
-    The primary focus of my research is to understand the genetic and molecular mechanisms of intracellular bacterial pathogenesis.  We use several model systems to study complex host-pathogen interactions in the gut and in immune cells such as macrophages and dendritic cells.  Ultimately we would like to understand how Salmonella persists within certain hosts for years in the face of a robust immune response.
-  </p></div><div class="link-actions"><a data-bypass="" data-toggle="collapse" data-target="[data-collapsible=similar-profiles8324]"><i class="icon-caret-right"></i>More</a></div>
-  <div class="link-publications">
-    <ul>
-      <li><a class="publication-count" href="/profiles/denise-monack?tab=publications"><span>99</span> Total Publications</a></li>
-    </ul>
-  </div>
-</div>
-</li><li class="mini-profile media">
-<input type="radio" name="similar-profiles" id="similar-profiles/profiles/lucy-obrien">
-<div class="media-body">
-  <a class="media-img" href="/profiles/lucy-obrien">
-    <img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=35098&amp;type=small" alt="Lucy Erin O'Brien">
-  </a>
-  <a href="/profiles/lucy-obrien" class="media-heading">
-    <h4>Lucy Erin O'Brien</h4>
-    <h5>Assistant Professor of Molecular and Cellular Physiology</h5>
-  </a>
-
-
-
-  <div data-collapsible="similar-profiles35098" class="collapse"><p class="research-interests">
-    <strong>Research Interests</strong>
-    Many adult organs tune their functional capacity to variable levels of physiologic demand.  Adaptive organ resizing breaks the allometry of the body plan that was established during development, suggesting that it occurs through different mechanisms.  Emerging evidence points to stem cells as key players in these mechanisms.  We use the Drosophila midgut, a stem-cell based organ analogous to the vertebrate small intestine, as a simple model to uncover the rules that govern adaptive remodeling.
-  </p></div><div class="link-actions"><a data-bypass="" data-toggle="collapse" data-target="[data-collapsible=similar-profiles35098]"><i class="icon-caret-right"></i>More</a></div>
-  <div class="link-publications">
-    <ul>
-      <li><a class="publication-count" href="/profiles/lucy-obrien?tab=publications"><span>14</span> Total Publications</a></li>
-    </ul>
-  </div>
-</div>
-</li><li class="mini-profile media">
-<input type="radio" name="similar-profiles" id="similar-profiles/profiles/garry-nolan">
-<div class="media-body">
-  <a class="media-img" href="/profiles/garry-nolan">
-    <img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4713&amp;type=small" alt="Garry Nolan">
-  </a>
-  <a href="/profiles/garry-nolan" class="media-heading">
-    <h4>Garry Nolan</h4>
-    <h5>Rachford and Carlota Harris Professor</h5>
-  </a>
-
-
-
-  <div data-collapsible="similar-profiles4713" class="collapse"><p class="research-interests">
-    <strong>Research Interests</strong>
-    Dr. Nolan's group uses high throughput single cell analysis technology of kinase driven signaling cascades to interrogate autoimmunity, cancer, virology (influenza), bacterial pathogens as well as understanding normal immune system function.  Using advanced flow cytometric techniques such as Mass Cytometry and computational biology approaches, we focus on high throughput drug screening, mouse models of disease in patient materials, and understanding disease processes at the single cell level.
-  </p></div><div class="link-actions"><a data-bypass="" data-toggle="collapse" data-target="[data-collapsible=similar-profiles4713]"><i class="icon-caret-right"></i>More</a></div>
-  <div class="link-publications">
-    <ul>
-      <li><a class="publication-count" href="/profiles/garry-nolan?tab=publications"><span>246</span> Total Publications</a></li>
-    </ul>
-  </div>
-</div>
-</li></ul>
-
-<ul class="unstyled ">
-  <li><label class="media-img" for="similar-profiles/profiles/stanley-falkow"><img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4488&amp;type=small"></label></li>
-  <li><label class="media-img" for="similar-profiles/profiles/lucy-tompkins"><img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4603&amp;type=small"></label></li>
-  <li><label class="media-img" for="similar-profiles/profiles/julie-theriot"><img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4432&amp;type=small"></label></li>
-  <li><label class="media-img" for="similar-profiles/profiles/julie-parsonnet"><img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4495&amp;type=small"></label></li>
-  <li><label class="media-img" for="similar-profiles/profiles/tessa-andermann"><img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=67591&amp;type=small"></label></li>
-  <li><label class="media-img" for="similar-profiles/profiles/tobias-meyer"><img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4007&amp;type=small"></label></li>
-  <li><label class="media-img" for="similar-profiles/profiles/kelley-yan"><img class="media-object pull-left" src=""></label></li>
-  <li><label class="media-img" for="similar-profiles/profiles/denise-monack"><img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=8324&amp;type=small"></label></li>
-  <li><label class="media-img" for="similar-profiles/profiles/lucy-obrien"><img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=35098&amp;type=small"></label></li>
-  <li><label class="media-img" for="similar-profiles/profiles/garry-nolan"><img class="media-object pull-left" src="https://cap.stanford.edu/profiles/viewImage?profileId=4713&amp;type=small"></label></li>
-</ul>
-
-</div></div></div>
-<div id="tagCloudContent" class="content-section tag-cloud"><div><h3>Publication Topics For This Person</h3>
-  <hr>
-  <div class="content-section color-scheme-tag-cloud bg-icon-tag-cloud">
-    <ul class="unstyled section-listing">
-      <li class="tag">
-        <a href="/profiles/search?q=3T3 Cells" class="weight11">3T3 Cells</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Actins" class="weight11">Actins</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Amino Acid Sequence" class="weight11">Amino Acid Sequence</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Antigens, Bacterial" class="weight14">Antigens, Bacterial</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Bacterial Adhesion" class="weight11">Bacterial Adhesion</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Bacterial Proteins" class="weight17">Bacterial Proteins</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Blood Proteins" class="weight14">Blood Proteins</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Cell Adhesion" class="weight12">Cell Adhesion</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Cell Adhesion Molecules" class="weight11">Cell Adhesion Molecules</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Cell Line" class="weight16">Cell Line</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Cell Membrane" class="weight13">Cell Membrane</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Cell Polarity" class="weight13">Cell Polarity</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Cells, Cultured" class="weight11">Cells, Cultured</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Cytoskeletal Proteins" class="weight16">Cytoskeletal Proteins</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Cytoskeleton" class="weight12">Cytoskeleton</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Epithelial Cells" class="weight13">Epithelial Cells</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Gastric Mucosa" class="weight14">Gastric Mucosa</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Helicobacter Infections" class="weight17">Helicobacter Infections</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Helicobacter pylori" class="weight18">Helicobacter pylori</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Intercellular Junctions" class="weight13">Intercellular Junctions</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Luminescent Proteins" class="weight11">Luminescent Proteins</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Membrane Proteins" class="weight15">Membrane Proteins</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Mice, Inbred C57BL" class="weight11">Mice, Inbred C57BL</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Microfilament Proteins" class="weight17">Microfilament Proteins</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Phosphoproteins" class="weight14">Phosphoproteins</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Phosphorylation" class="weight11">Phosphorylation</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Proteins" class="weight14">Proteins</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Rats" class="weight12">Rats</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Stomach Neoplasms" class="weight11">Stomach Neoplasms</a>
-      </li>
-      <li class="tag">
-        <a href="/profiles/search?q=Tumor Cells, Cultured" class="weight11">Tumor Cells, Cultured</a>
-      </li>
-    </ul>
-  </div></div></div>
-</div>
-</div></div></div>
 
 </div>
 </div>

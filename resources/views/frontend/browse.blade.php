@@ -29,9 +29,9 @@
         </a>
       </span>
 
-      <a class="brand" href="#">
-        <span class="my-logo">Logo |</span>
-        <span class="second-logo">Profiles</span>
+      <a class="brand" href="{{url("/")}}">
+        <span class="my-logo"><img  src="{{asset("images/logo.png")}}"></span>
+        <span class="second-logo" style="margin-left: 20px;margin-top: 10px;">Profiles</span>
       </a>
       
       <div class="nav-sidebar hidden-phone">

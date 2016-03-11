@@ -39,7 +39,7 @@
 <div class="container-fluid">
 <!--CMU LOGO-->
 <br><br>
-<img  src="{{asset("images/cmu_logo.jpg")}}">
+<img  src="{{asset("images/logo.png")}}">
 <br>
 <!---end logo-->
 

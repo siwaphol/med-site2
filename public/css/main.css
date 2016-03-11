@@ -9548,7 +9548,7 @@ a[data-toggle=collapse] {
   #superheaderList li.x_hasChildren > a:hover {
     background-color: #b5b5a7; }
   #superheaderList li.x_hasChildren > a:after {
-    color: #A975F0;
+    color: #57249C;
     content: "\f0d7";
     font-family: FontAwesome;
     font-size: 10px;
@@ -9821,12 +9821,12 @@ header {
   box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.5); }
   @media only screen and (min-width: 980px) {
     #wrapper {
-      width: 60em;
+      /*width: 60em;*/
       margin: 2.25em auto 0;
       z-index: 2;
       border-radius: 0.625em 0.625em 0 0; } }
   #wrapper .banner {
-    background-color: #A975F0;
+    background-color: #57249C;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset;
     min-height: 2.1875em;
     -webkit-transition: all 0.3s ease-in-out;
@@ -9917,11 +9917,13 @@ header {
     padding: 0.38889em 0; }
     @media only screen and (min-width: 768px) and (max-width: 979px) {
       #headerContent .brand {
-        font-size: 1.5em;
+        font-size: 2em;
+        font-weight: bold;
         padding: 0.625em 0; } }
     @media only screen and (min-width: 980px) {
       #headerContent .brand {
-        font-size: 1.5em;
+        font-size: 2em;
+        font-weight: bold;
         padding: 0.625em 0 0.625em 0.45833em; } }
     #headerContent .brand span {
       display: block;
@@ -10201,7 +10203,7 @@ footer#footerContent {
       margin: 0 1.1262em 0 -1.68929em;
       height: 1.37646em;
       width: 1.37646em;
-      background-color: #A975F0;
+      background-color: #57249C;
       font-size: 0.99894em; }
       @media only screen and (min-width: 768px) {
         .home .banner .navbar-search button {
@@ -10295,7 +10297,7 @@ footer#footerContent {
 .home .information .span5 {
   width: auto; }
 .home .information .navbar {
-  background-color: #A975F0;
+  background-color: #57249C;
   *zoom: 1;
   padding: 5px 0 19px; }
   .home .information .navbar:before, .home .information .navbar:after {
@@ -10359,14 +10361,14 @@ footer#footerContent {
           padding: 17px 30px; } }
     .home .information .navbar .nav li.active a {
       background-color: white;
-      color: #A975F0;
+      color: #57249C;
       font-weight: bold; }
       .home .information .navbar .nav li.active a:after {
         display: block;
         content: " ";
         margin-bottom: -16px;
         padding-bottom: 13px;
-        border-bottom: 3px solid #A975F0; }
+        border-bottom: 3px solid #57249C; }
         @media only screen and (min-width: 768px) and (max-width: 979px) {
           .home .information .navbar .nav li.active a:after {
             margin-bottom: -8px;
@@ -10387,7 +10389,7 @@ footer#footerContent {
       .home .information .navbar .nav-collapse .carousel-indicators {
         padding: 0; } }
     .home .information .navbar .nav-collapse .carousel-indicators li a {
-      color: #A975F0;
+      color: #57249C;
       border-radius: 0.1875em; }
       @media only screen and (min-width: 768px) {
         .home .information .navbar .nav-collapse .carousel-indicators li a {
@@ -10400,7 +10402,7 @@ footer#footerContent {
           .home .information .navbar .nav-collapse .carousel-indicators li a:hover {
             background-color: transparent; } }
     .home .information .navbar .nav-collapse .carousel-indicators li.active a {
-      color: #A975F0; }
+      color: #57249C; }
       .home .information .navbar .nav-collapse .carousel-indicators li.active a:hover {
         background-color: #F2F2F2;
         box-shadow: none; }
@@ -10413,11 +10415,11 @@ footer#footerContent {
         @media only screen and (min-width: 768px) {
           .home .information .navbar .nav-collapse .carousel-indicators li.active a:after {
             display: block;
-            border-bottom: 3px solid #A975F0; } }
+            border-bottom: 3px solid #57249C; } }
   .home .information .navbar .btn.btn-navbar {
     background: white;
     border-radius: 0.1875em 0.1875em 0 0;
-    color: #A975F0;
+    color: #57249C;
     float: none;
     font-size: 110%;
     font-weight: bold;
@@ -10427,7 +10429,7 @@ footer#footerContent {
     text-shadow: none;
     border: none; }
     .home .information .navbar .btn.btn-navbar:after {
-      border-bottom: 3px solid #A975F0;
+      border-bottom: 3px solid #57249C;
       content: " ";
       display: block;
       margin-bottom: -16px;
@@ -10680,7 +10682,7 @@ footer#footerContent {
     font-size: 18px;
     margin: 10px 0; }
 .home .information .intranet-blurb .btn-large {
-  color: #A975F0;
+  color: #57249C;
   font-size: 150%; }
 @media only screen and (min-width: 768px) {
   .home .information .explore .intranet-blurb.span3 {
@@ -10808,7 +10810,7 @@ footer#footerContent {
     padding: 0.36364em 0.45455em 0.36364em 0;
     text-align: right; }
     .home .information .login a span {
-      color: #A975F0;
+      color: #57249C;
       display: block;
       font-size: 0.81818em; }
     .home .information .login a .icon-som-shield {
@@ -10922,7 +10924,7 @@ footer#footerContent {
   box-shadow: 0 0 137px rgba(0, 0, 0, 0.19) inset;
   min-height: 500px; }
   .home .overview .goto-link, .home .demographics .goto-link, .home .nobel-laureates .goto-link {
-    color: #A975F0; }
+    color: #57249C; }
   .home .overview h3, .home .demographics h3, .home .nobel-laureates h3 {
     color: #666;
     font-size: 45px;
@@ -11264,7 +11266,7 @@ footer#footerContent {
     font-size: 1.5625em;
     font-weight: 400;
     text-transform: none;
-    margin-top: -1.5%;
+    /*margin-top: -1.5%;*/
     margin-bottom: 5px;
     line-height: 100%; }
     @media only screen and (min-width: 768px) {
