@@ -9,32 +9,8 @@
 
 </head>
 <body>
-  
-  <!-- Fixed navbar -->
-  <nav class="navbar navbar-default navbar-fixed-top navbar-xs">
-    <div class="container" >
-      <div id="navbar" class="collapse navbar-collapse navbar-right">
-        <ul class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </nav> <!-- end fixed navbar -->
 
+@include("partials._navbar")
 
 <div class="container-fluid">
 <!--CMU LOGO-->
@@ -43,21 +19,7 @@
 <br>
 <!---end logo-->
 
-
-    <!--Tab Home,Faculty,Researcgh,Seminar,Contact Us-->
-    <div class="row visible" id="navmenu">
-      <nav>
-        <ul class="nav nav-justified">
-          <li style="font-size:11px"><a href="#">Home</a></li>
-          <li style="font-size:11px"><a href="#">Faculty & Staff</a></li>
-          <li style="font-size:11px"><a href="#">Research</a></li>
-          <li style="font-size:11px"><a href="#">Education & Training</a></li>
-          <li style="font-size:11px"><a href="#">Seminars</a></li>
-          <li style="font-size:11px"><a href="#">Contact Us</a></li>
-        </ul>
-      </nav>
-    </div> <!-- End div.menu -->
-
+@include("partials._navmenu")
 
     <!-- Carousel -->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -96,24 +58,9 @@
 <!-- end Carousel -->
   <br>
     <div class="row">
-      <!-- List Manu Left-->
-      <div class="col-md-2">
-      <h4 style="font-size: 18px;">MICROBIOLOGY <!--Head-->
-      </h4>
-      <ul class="nav nav-tabs nav-stacked">
-        <li><a href="#">Home</a></li>
-        <li><a href="{{url('browse')}}">Faculty</a></li>
-        <li><a href="#">Department Faculty</a></li>
-        <li><a href="#">Administrative Staff</a></li>
-        <li><a href="#">Curriculum</a></li>
-        <li><a href="#">Research</a></li>
-        <li><a href="#">Education & Training</a></li>
-        <li><a href="#">Seminars</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-      
-      </div>
-      <!--End List-->
+
+        @include("partials._sidemenu")
+
       <div class="col-md-10">
       <div class="row-md-6">
         <h4>Our Mission</h4>

@@ -45,6 +45,11 @@ Route::get('browse', function ()
     return view('frontend.browse', compact('profiles'));
 });
 
+Route::get('research', function ()
+{
+    return view('research');
+});
+
 Route::get('profile/{id}', function ($id)
 {
     $user = App\UserProfile::find($id);
