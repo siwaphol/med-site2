@@ -8,21 +8,6 @@
   <link rel="stylesheet" href="{{asset("css/custom.css")}}">
 
 
-<!--new-->
-<link rel="stylesheet" href="{{asset("css/bootstrap.css")}}">
-<!-- ION ICONS STYLES -->
-<link rel="stylesheet" href="{{asset("css/ionicons.css")}}">
-<!-- FONT AWESOME ICONS STYLES -->
-<link rel="stylesheet" href="{{asset("css/font-awesome.css")}}">
-<!-- FANCYBOX POPUP STYLES -->
-<link rel="stylesheet" href="{{asset("js/jquery.fancybox.css")}}">
-<!-- STYLES FOR VIEWPORT ANIMATION -->
-<link rel="stylesheet" href="{{asset("css/animations.min.css")}}">
-<!-- CUSTOM CSS -->
-<link rel="stylesheet" href="{{asset("css/style-blue.css")}}">
-<!--end new css-->
-
-
 </head>
 <body>
 
