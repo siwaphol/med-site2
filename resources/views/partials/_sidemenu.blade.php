@@ -7,7 +7,7 @@
         <li><a href="{{url('browse')}}">Faculty</a></li>
         <li><a href="#">Department Faculty</a></li>
         <li><a href="#">Administrative Staff</a></li>
-        <li><a href="#">Curriculum</a></li>
+        <li><a href="{{url("curriculum")}}">Curriculum</a></li>
         <li><a href="{{url("research")}}">Research</a></li>
         <li><a href="#">Education & Training</a></li>
         <li><a href="#">Seminars</a></li>
