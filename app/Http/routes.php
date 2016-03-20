@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return view('ball');
+    return view('ball2');
 });
 
 Route::get("test", function() {

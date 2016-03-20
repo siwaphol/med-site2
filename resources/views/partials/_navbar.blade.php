@@ -3,8 +3,8 @@
     <div class="container" >
         <div id="navbar" class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#">Home123</a></li>
+                <li><a href="{{url("browse")}}">Browse</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="{{url("research")}}">Research</a></li>
                 <li><a href="#research">Education</a></li>
