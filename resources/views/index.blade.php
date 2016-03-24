@@ -9,7 +9,7 @@
 
 
 </head>
-<body style="font: Constantia;">
+<body>
 
 @include("partials._navbar")
 
