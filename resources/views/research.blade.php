@@ -20,6 +20,7 @@
 @include("partials._sidemenu")
 
       <!--End List-->
+      <div class="col-md-10">
       <div class="row-md-6">
         <h4>Research</h4>
           <p style="font-size: 12px;">
@@ -50,5 +51,6 @@
   </div>
   <script src="{{asset("js/jquery.min.js")}}"></script>
   <script src="{{asset("js/bootstrap.min.js")}}"></script>
+  <script src="{{asset("js/hoe.js")}}"></script>
 </body>
 </html>

@@ -41,7 +41,6 @@
                                 <li><a href="#">Medicine</a></li>
                                 <li><a href="#">Dentistry</a></li>
                                 <li><a href="#">Pharmacy</a></li>
-                                <li><a href="#">Pharmacy</a></li>
                                 <li><a href="#">Nurse</a></li>
                             <li class="dropdown-header"><h4>Graduate</h4></li>
                         </ul>

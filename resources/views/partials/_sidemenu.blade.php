@@ -2,36 +2,7 @@
 <div class="col-md-2">
     <h4 style="font-size: 18px;">MICROBIOLOGY
     </h4>
-    <ul class="nav navbar-nav">
-     <li class="active"><a href="#">Home</a></li>
-     <li><a href="#about">About</a></li>
-     <li><a href="#contact">Contact</a></li>
-     <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-      <ul class="dropdown-menu">
-       <li><a href="#">Action</a></li>
-       <li><a href="#">Another action</a></li>
-       <li><a href="#">Something else here</a></li>
-       <li class="divider"></li>
-       <li class="dropdown-header">Nav header</li>
-       <li><a href="#">Separated link</a></li>
-       <li><a href="#">One more separated link</a></li>
-       <li><a href="#">Action</a></li>
-       <li><a href="#">Another action</a></li>
-       <li><a href="#">Something else here</a></li>
-       <li class="divider"></li>
-       <li class="dropdown-header">Nav header</li>
-       <li><a href="#">Separated link</a></li>
-       <li><a href="#">One more separated link</a></li>
-       <li><a href="#">Action</a></li>
-       <li><a href="#">Another action</a></li>
-       <li><a href="#">Something else here</a></li>
-       <li class="divider"></li>
-       <li class="dropdown-header">Nav header</li>
-       <li><a href="#">Separated link test long title goes here</a></li>
-       <li><a href="#">One more separated link</a></li>
-      </ul>
-     </li>
-    </ul>
+
     <!--<ul class="nav nav-tabs nav-stacked">
         <li><a href="#">Home</a></li>
         <li>Faculty & Staff
@@ -63,6 +34,159 @@
         <li><a href="{{url("research")}}">Research</a></li>
         <li><a href="#">Contact Us</a></li>
     </ul>-->
+    <ul class="nav panel-list">
+        <li class="hoe-has-menu">
+            <a href="{{url("/")}}">
+                <span class="menu-text">Home</span>
+                <span class="selected"></span>
+            </a>
+        </li>
 
+        <li class="hoe-has-menu">
+            <a href="javascript:void(0)">
+                <span class="menu-text">Faculty & Staff</span>
+                <span class="selected"></span>
+            </a>
+            <ul class="hoe-sub-menu" style="display: none;">
+                <li>
+                    <a href="javascript:void(0)">
+                        <span class="menu-text">Faculty</span>
+                        <span class="selected"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{url('browse')}}">
+                        <span class="menu-text">Staff</span>
+                        <span class="selected"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <span class="menu-text">Graduate Student</span>
+                        <span class="selected"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <span class="menu-text">Visiting Scholar & Postdocs</span>
+                        <span class="selected"></span>
+                    </a>
+                </li> 
+            </ul>
+            </li>
+
+        <li class="hoe-has-menu">
+            <a href="javascript:void(0)">
+                <span class="menu-text">Curriculum</span>
+                <span class="selected"></span>
+            </a>
+            <ul class="hoe-sub-menu" style="display: none;">
+                <li class="hoe-has-menu">
+                    <a href="javascript:void(0)">
+                        <span class="menu-text">Undergraduate</span>
+                        <span class="selected"></span>
+                    </a>
+                    <ul class="hoe-sub-menu" style="display: none;">
+                        <li class="hoe-has-menu">
+                            <a href="javascript:void(0)">
+                                <span class="menu-text">Medilicine</span>
+                                <span class="selected"></span>
+                            </a>    
+                        </li>                                         
+                    </ul>
+                </li>
+                <li class="hoe-has-menu">
+                    <a href="javascript:void(0)">
+                        <span class="menu-text">Graduate</span>
+                        <span class="selected"></span>
+                    </a>
+                    <ul class="hoe-sub-menu" style="display: none;">
+                        <li class="hoe-has-menu">
+                            <a href="javascript:void(0)">
+                                <span class="menu-text">Master of Science (M.Sc.)</span>
+                                <span class="selected"></span>
+                            </a>    
+                        </li>
+                        <li class="hoe-has-menu">
+                            <a href="javascript:void(0)">
+                                <span class="menu-text">Doctor of Philosophy (Ph.D.)</span>
+                                <span class="selected"></span>
+                            </a>    
+                        </li> 
+                        <li class="hoe-has-menu">
+                            <a href="javascript:void(0)">
+                                <span class="menu-text">International Program</span>
+                                <span class="selected"></span>
+                            </a>    
+                        </li>                                          
+                    </ul>
+                </li>  
+            </ul>
+        </li>
+
+        <li class="hoe-has-menu">
+            <a href="javascript:void(0)">
+                <span class="menu-text">Courses</span>
+                <span class="selected"></span>
+            </a>
+            <ul class="hoe-sub-menu" style="display: none;">
+                <li class="hoe-has-menu">
+                    <a href="javascript:void(0)">
+                        <span class="menu-text">Undergraduate</span>
+                        <span class="selected"></span>
+                    </a>
+                    <ul class="hoe-sub-menu" style="display: none;">
+                        <li class="hoe-has-menu">
+                            <a href="javascript:void(0)">
+                                <span class="menu-text">Medilicine</span>
+                                <span class="selected"></span>
+                            </a>    
+                        </li>
+                        <li class="hoe-has-menu">
+                            <a href="javascript:void(0)">
+                                <span class="menu-text">Dentistry</span>
+                                <span class="selected"></span>
+                            </a>    
+                        </li> 
+                        <li class="hoe-has-menu">
+                            <a href="javascript:void(0)">
+                                <span class="menu-text">Pharmacy</span>
+                                <span class="selected"></span>
+                            </a>    
+                        </li> 
+                        <li class="hoe-has-menu">
+                            <a href="javascript:void(0)">
+                                <span class="menu-text">Nurse</span>
+                                <span class="selected"></span>
+                            </a>    
+                        </li>                                          
+                    </ul>
+                </li>
+                <li class="hoe-has-menu">
+                    <a href="javascript:void(0)">
+                        <span class="menu-text">Graduate</span>
+                        <span class="selected"></span>
+                    </a>
+                </li>  
+            </ul>
+        </li>
+
+
+        <li class="hoe-has-menu">
+            <a href="{{url("research")}}">
+                    <span class="menu-text">Research</span>
+                    <span class="selected"></span>
+            </a>
+        </li>
+
+        <li class="hoe-has-menu">
+            <a href="javascript:void(0)">
+                    <span class="menu-text">Contact Us</span>
+                    <span class="selected"></span>
+            </a>
+        </li>  
+
+
+    </ul>
 </div>
 <!--End List-->
