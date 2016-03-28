@@ -1,8 +1,17 @@
 <!-- List Manu Left-->
-<!--<div class="col-md-2">
+<div class="col-md-2">
     <h4 style="font-size: 18px;">MICROBIOLOGY
     </h4>
-    <ul class="nav nav-tabs nav-stacked">
+    <div class="list-group">
+        <a href="#" class="list-group-item active">
+            Cras justo odio
+        </a>
+        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+        <a href="#" class="list-group-item">Morbi leo risus</a>
+        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+        <a href="#" class="list-group-item">Vestibulum at eros</a>
+    </div>
+    <!--<ul class="nav nav-tabs nav-stacked">
         <li><a href="#">Home</a></li>
         <li>Faculty & Staff
             <ul><a href="#">Faculty<a></ul>
@@ -32,17 +41,8 @@
         </li>
         <li><a href="{{url("research")}}">Research</a></li>
         <li><a href="#">Contact Us</a></li>
-    </ul>
+    </ul>-->
 
 </div>
 <!--End List-->
 
-<div class="list-group">
-  <a href="#" class="list-group-item active">
-    Cras justo odio
-  </a>
-  <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-  <a href="#" class="list-group-item">Morbi leo risus</a>
-  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-  <a href="#" class="list-group-item">Vestibulum at eros</a>
-</div>
