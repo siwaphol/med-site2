@@ -1,5 +1,6 @@
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top navbar-xs">
+<div class="container" >
     <div id="navbar" class="collapse navbar-collapse navbar-right">
     <ul class="dropdown-menu">
       <li class="dropdown-header">Dropdown header 1</li>
@@ -10,6 +11,7 @@
       <li class="dropdown-header">Dropdown header 2</li>
       <li><a href="#">About Us</a></li>
     </ul>
+    </div>
     </div>
     <!--<div class="container" >
         <div id="navbar" class="collapse navbar-collapse navbar-right">
