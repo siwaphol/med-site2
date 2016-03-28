@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse" style="background-color: #9b59b6;">
+<nav class="navbar navbar-inverse">
 
     <div class="container-fluid">
           <div class="navbar-header">
@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                 </button>
           </div>
-          <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+          <div id="navbar" aria-expanded="false" style="height: 1px;">
             <ul class="nav navbar-nav navbar-right">
                 <ul class="nav navbar-nav">
                     <li><a href="{{url("/")}}">Home</a></li>
