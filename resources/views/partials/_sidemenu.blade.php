@@ -2,7 +2,7 @@
 <div class="col-md-2">
     <h4 style="font-size: 18px;">MICROBIOLOGY <!--Head-->
     </h4>
-    <ul class="nav nav-tabs nav-stacked" aria-hidden="true">
+    <ul class="nav nav-tabs nav-stacked" hidden="true">
         <li><a href="#">Home</a></li>
         <li><a href="{{url('browse')}}">Faculty & Staff</a>
             <ul><a href="#">Faculty<a></ul>
@@ -33,28 +33,6 @@
         <li><a href="{{url("research")}}">Research</a></li>
         <li><a href="#">Contact Us</a></li>
     </ul>
-
-    <li class="hoe-has-menu">
-        <a href="javascript:void(0)">
-            <i class="fa fa-image"></i>
-                <span class="menu-text">Dropdown</span>
-                <span class="selected"></span>
-        </a>
-        <ul class="hoe-sub-menu">
-            <li>
-                <a href="javascript:void(0)">
-                    <span class="menu-text">Link</span>
-                    <span class="selected"></span>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:void(0)">
-                    <span class="menu-text">Another link</span>
-                    <span class="selected"></span>
-                </a>
-            </li>
-        </ul>
-    </li>
 
 </div>
 <!--End List-->
