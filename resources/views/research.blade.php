@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>MICROBIOLOGY</title>
+  <link rel="stylesheet" href="{{asset("css/bootstrap.min.css")}}">
   <link rel="stylesheet" href="{{asset("css/custom-bootstrap.css")}}">
   <link rel="stylesheet" href="{{asset("css/custom.css")}}">
 
@@ -21,11 +22,8 @@
 <br>
 <!---end logo-->
 
-
-@include("partials._navmenu")
-
-  <br>
-    <div class="row">
+<br>
+<div class="row">
 
 @include("partials._sidemenu")
 

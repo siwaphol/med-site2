@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-default navbar-fixed-top navbar-xs">
+<nav class="navbar navbar-inverse">
 
     <div class="container-fluid">
           <div class="navbar-header">
