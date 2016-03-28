@@ -57,7 +57,7 @@
 
 </nav>-->
 
-<nav class="navbar navbar-default" style="background-color: #9b59b6">
+<nav class="navbar navbar-default" style="background-color: #9b59b6  color: #FFF;">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
