@@ -1,6 +1,5 @@
 <nav class="navbar navbar-default">
         <div class="container-fluid">
-        <a class="navbar-brand" href="{{url("/")}}"><img  src="{{asset("images/logo2.png")}}"   width="240" height="60"></a>
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
