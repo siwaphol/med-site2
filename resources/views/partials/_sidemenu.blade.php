@@ -2,7 +2,7 @@
 <div class="col-md-2">
     <h4 style="font-size: 18px;">MICROBIOLOGY <!--Head-->
     </h4>
-    <ul class="nav nav-tabs nav-stacked" hidden="true">
+    <ul class="nav nav-tabs nav-stacked hidden">
         <li><a href="#">Home</a></li>
         <li><a href="{{url('browse')}}">Faculty & Staff</a>
             <ul><a href="#">Faculty<a></ul>
