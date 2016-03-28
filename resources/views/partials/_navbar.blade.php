@@ -8,7 +8,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="#" class="topnav-icons fa fa-home w3-left" title="Home"></a>
+            <a href="#" class="topnav-icons fa fa-home w3-left" title="glyphicon glyphicon-home"></a>
           </div>
           <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
             <ul class="nav navbar-nav">
