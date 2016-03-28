@@ -26,9 +26,9 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Curriculum<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li role="separator" class="divider"></li>
-                            <li class="dropdown-header"><h3>Undergraduate</h3></li>
+                            <li class="dropdown-header"><h4>Undergraduate</h4></li>
                                 <li><a href="#">Medilicine</a></li>
-                            <li class="dropdown-header"><h3>Graduate</h3></li>
+                            <li class="dropdown-header"><h4>Graduate</h4></li>
                                 <li><a href="#">Master of Science (M.Sc.)</a></li>
                                 <li><a href="#">Doctor of Philosophy (Ph.D.)</a></li>
                                 <li><a href="#">International Program</a></li>
@@ -38,13 +38,13 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li role="separator" class="divider"></li>
-                            <li class="dropdown-header"><h3>Undergraduate</h3></li>
+                            <li class="dropdown-header"><h4>Undergraduate</h4></li>
                                 <li><a href="#">Medicine</a></li>
                                 <li><a href="#">Dentistry</a></li>
                                 <li><a href="#">Pharmacy</a></li>
                                 <li><a href="#">Pharmacy</a></li>
                                 <li><a href="#">Nurse</a></li>
-                            <li class="dropdown-header"><h3>Graduate</h3></li>
+                            <li class="dropdown-header"><h4>Graduate</h4></li>
                         </ul>
                     </li>
 
