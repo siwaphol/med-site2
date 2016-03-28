@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                 </button>
           </div>
-          <div id="navbar collapse navbar-collapse" aria-expanded="false" style="height: 1px;">
+          <div id="navbar navbar-collapse" aria-expanded="false" style="height: 1px;">
             <ul class="nav navbar-nav navbar-right ">
                 <ul class="nav navbar-nav">
                     <li><a href="{{url("/")}}">Home</a></li>
