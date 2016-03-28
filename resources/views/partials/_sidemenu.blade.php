@@ -4,7 +4,7 @@
     </h4>
     <ul class="nav nav-tabs nav-stacked">
         <li><a href="#">Home</a></li>
-        <li><a href="{{url('browse')}}">Faculty & Staff</a>
+        <li class="palnel-title"><a href="{{url('browse')}}">Faculty & Staff</a>
             <ul><a href="#">Faculty<a></ul>
             <ul><a href="#">Staff</a></ul>
             <ul><a href="#">Graduate Student</a></ul>
