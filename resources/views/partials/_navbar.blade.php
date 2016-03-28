@@ -1,31 +1,42 @@
 <nav class="navbar navbar-inverse">
-    <div style="float:left;width:50%;overflow:hidden;height:44px">
-    <a href="javascript:void(0);" class="topnav-localicons w3-hide-large w3-left" onclick="open_menu()" title="Menu">☰</a>
+
     <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">WebSiteName</a>
-        </div>
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Page 1-1</a></li>
-                    <li><a href="#">Page 1-2</a></li>
-                    <li><a href="#">Page 1-3</a></li>
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
                 </ul>
-            </li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
-    </div>
-    </div>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+
 </nav>
-
-
 
 
 
