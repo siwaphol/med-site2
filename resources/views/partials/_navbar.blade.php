@@ -2,14 +2,14 @@
 
     <div class="container-fluid">
           <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="flase" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
           </div>
-          <div id="navbar" class="navbar-collapse collapse in" aria-expanded="true">
+          <div id="navbar" class="navbar-collapse collapse in" aria-expanded="flase">
             <ul class="nav navbar-nav navbar-right ">
                 <ul class="nav navbar-nav">
                     <li><a href="{{url("/")}}">Home</a></li>
