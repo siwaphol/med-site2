@@ -2,15 +2,21 @@
 <div class="col-md-2">
     <h4 style="font-size: 18px;">MICROBIOLOGY
     </h4>
-    <div class="list-group">
-        <a href="#" class="list-group-item active">
-            Cras justo odio
-        </a>
-        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-        <a href="#" class="list-group-item">Morbi leo risus</a>
-        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-        <a href="#" class="list-group-item">Vestibulum at eros</a>
-    </div>
+    <li  data-toggle="collapse" data-target="#products" class="collapsed active">
+        <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
+    </li>
+    <ul class="sub-menu collapse" id="products">
+        <li class="active"><a href="#">CSS3 Animation</a></li>
+        <li><a href="#">General</a></li>
+        <li><a href="#">Buttons</a></li>
+        <li><a href="#">Tabs & Accordions</a></li>
+        <li><a href="#">Typography</a></li>
+        <li><a href="#">FontAwesome</a></li>
+        <li><a href="#">Slider</a></li>
+        <li><a href="#">Panels</a></li>
+        <li><a href="#">Widgets</a></li>
+        <li><a href="#">Bootstrap Model</a></li>
+    </ul>
     <!--<ul class="nav nav-tabs nav-stacked">
         <li><a href="#">Home</a></li>
         <li>Faculty & Staff
@@ -45,4 +51,3 @@
 
 </div>
 <!--End List-->
-
