@@ -1,35 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <title>MICROBIOLOGY</title>
-  <link rel="stylesheet" href="{{asset("css/custom-bootstrap.css")}}">
-  <link rel="stylesheet" href="{{asset("css/custom.css")}}">
-
-</head>
+@include("partials._headcss")
 <body>
   
 @include("partials._navbar")
 
 <div class="container-fluid">
 <!--CMU LOGO-->
-<br><br>
-    <a href="{{url("/")}}">
-        <img  src="{{asset("images/logo.png")}}">
-    </a>
+<a href="{{url("/")}}">
+      <img  src="{{asset("images/logo2.png")}}"   width="400" height="100">
+</a>
 <br>
 <!---end logo-->
 
-
-@include("partials._navmenu")
-
-  <br>
-    <div class="row">
+<br>
+<div class="row">
 
 @include("partials._sidemenu")
 
       <!--End List-->
+      <div class="col-md-10">
       <div class="row-md-6">
         <h4>Research</h4>
           <p style="font-size: 12px;">
@@ -60,5 +51,6 @@
   </div>
   <script src="{{asset("js/jquery.min.js")}}"></script>
   <script src="{{asset("js/bootstrap.min.js")}}"></script>
+  <script src="{{asset("js/hoe.js")}}"></script>
 </body>
 </html>
