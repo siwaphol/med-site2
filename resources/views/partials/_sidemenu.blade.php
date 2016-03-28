@@ -2,21 +2,73 @@
 <div class="col-md-2">
     <h4 style="font-size: 18px;">MICROBIOLOGY
     </h4>
-    <li data-target="#products">
-        <a href="#"><i></i> UI Elements <span></span></a>
-    </li>
-    <ul id="products">
-        <li><a href="#">CSS3 Animation</a></li>
-        <li><a href="#">General</a></li>
-        <li><a href="#">Buttons</a></li>
-        <li><a href="#">Tabs & Accordions</a></li>
-        <li><a href="#">Typography</a></li>
-        <li><a href="#">FontAwesome</a></li>
-        <li><a href="#">Slider</a></li>
-        <li><a href="#">Panels</a></li>
-        <li><a href="#">Widgets</a></li>
-        <li><a href="#">Bootstrap Model</a></li>
-    </ul>
+    <li class="hoe-has-menu opened">
+                            <a href="javascript:void(0)">
+                                <i class="fa fa-sitemap"></i>
+                                <span class="menu-text">Menu Lavel 1</span>
+                                <span class="selected"></span>
+                            </a>
+                            <ul class="hoe-sub-menu" style="display: block;">
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <span class="menu-text">level 2</span>
+                                        <span class="selected"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <span class="menu-text">level 2</span>
+                                        <span class="selected"></span>
+                                    </a>
+                                </li>
+                                <li class="hoe-has-menu">
+                                    <a href="javascript:void(0)">
+                                        <span class="menu-text">level 2</span>
+                                        <span class="selected"></span>
+                                    </a>
+                                    <ul class="hoe-sub-menu">
+                                        <li class="hoe-has-menu">
+                                            <a href="javascript:void(0)">
+                                                <span class="menu-text">level 3</span>
+                                                <span class="selected"></span>
+                                            </a>
+                                            <ul class="hoe-sub-menu">
+                                                <li>
+                                                    <a href="javascript:void(0)">
+                                                        <span class="menu-text">level 4</span>
+                                                        <span class="selected"></span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">
+                                                        <span class="menu-text">level 4</span>
+                                                        <span class="selected"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <span class="menu-text">level 3</span>
+                                                <span class="selected"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <span class="menu-text">level 3</span>
+                                                <span class="selected"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <span class="menu-text">level 3</span>
+                                                <span class="selected"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>  
+                            </ul>
+                        </li>
     <!--<ul class="nav nav-tabs nav-stacked">
         <li><a href="#">Home</a></li>
         <li>Faculty & Staff
