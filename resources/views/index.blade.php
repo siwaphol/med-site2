@@ -17,7 +17,9 @@
 <div class="container-fluid">
 <!--CMU LOGO-->
 <br><br>
-<img  src="{{asset("images/logo2.png")}}" width="240" height="60">
+<a href="{{url("/")}}">
+      <img  src="{{asset("images/logo2.png")}}">
+</a>
 <br>
 <!---end logo-->
 
