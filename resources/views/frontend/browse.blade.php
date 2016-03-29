@@ -30,7 +30,7 @@
       </span>
 
       <a class="brand" href="{{url("/")}}">
-        <span class="my-logo"><img  src="{{asset("images/logo.png")}}"></span>
+        <span class="my-logo"><img  src="{{asset("images/main_logo.png")}}" style="height: 60px;"></span>
         <span class="second-logo" style="margin-left: 20px;margin-top: 10px;">Profiles</span>
       </a>
       
@@ -39,6 +39,12 @@
           <form class="navbar-search " method="get" action="/profiles/search">
   <input class="search-query" type="text" name="q" placeholder="Search by name or topic..." autocomplete="off" />
   <button class="icon-search" type="submit" name="search" title="Search"></button>
+  <div class="btn-group ">
+            <a class="btn btn-small btn-first-page" @click="firstPageClick">
+              <span class="hidden-phone">Add Staff (temporary)</span>
+              <span class="hidden-desktop hidden-tablet icon-double-angle-left"></span>
+            </a>
+  </div>
 </form>
         </div>
       </div>      

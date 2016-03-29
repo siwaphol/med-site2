@@ -4,33 +4,37 @@
 @include("partials._headcss")
 
 <body>
+  <div class="row">
+      @include("partials._navbar")
+  </div>
 
-@include("partials._navbar")
-
-<div class="container-fluid">
-<!--CMU LOGO-->
-<a href="{{url("/")}}">
-      <img  src="{{asset("images/logo2.png")}}"   width="400" height="100">
-</a>
-<br>
-<!---end logo-->
-
-@yield("carousel")
-
-  <br>
+  <div class="container-fluid">
+    <!--CMU LOGO-->
     <div class="row">
+      <a href="{{url("/")}}"><img  src="{{asset("images/main_logo.png")}}" style="height: 100px;margin-left: 50px;"> </a>
+    </div>
+    <!---end logo-->
 
+    @yield("carousel")
+
+    <br>
+    <div class="row">
+      <div class="col-md-2" id="hoe-left-panel">
         @include("partials._sidemenu")
-
+      </div>
+      <div class="col-md-10">
         @yield("content")
+      </div>
     </div>
 
+    <div class="row">
+        <ul class ="pager col-md-12">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Maps & Directions</a></li>
+        </ul>
+    </div>
     
     <!--List Bottom-->
-    <ul class ="pager">
-      <li><a href="#">Contact Us</a></li>
-      <li><a href="#">Maps & Directions</a></li>
-    </ul>
   </div>
   <script src="{{asset("js/jquery.min.js")}}"></script>
   <script src="{{asset("js/bootstrap.min.js")}}"></script>
