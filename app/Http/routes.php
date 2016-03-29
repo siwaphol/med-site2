@@ -86,3 +86,7 @@ Route::get('api/profile', function (Request $request)
 
     return $users;
 });
+
+//News section
+Route::get('news', ['as'=>'news', 'uses'=>'NewsController@create']);
+Route::post('news', ['as'=>'news_store', 'uses'=>'NewsController@store']);
