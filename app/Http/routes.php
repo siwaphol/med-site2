@@ -13,7 +13,9 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return view('ball2');
+    $top4news = \App\News::orderBy('updated_at')->take(4)->get();
+
+    return view('ball2', compact('top4news'));
 });
 
 Route::get("test", function() {
@@ -89,4 +91,20 @@ Route::get('api/profile', function (Request $request)
 
 //News section
 Route::get('news', ['as'=>'news', 'uses'=>'NewsController@create']);
+Route::get('news/{id}', 'NewsController@show');
+Route::get('news/{id}/edit', 'NewsController@edit');
 Route::post('news', ['as'=>'news_store', 'uses'=>'NewsController@store']);
+Route::post('news/{id}', ['as'=>'news_update', 'uses'=>'NewsController@update']);
+
+Route::get('upload_images/{filename}', function ($filename)
+{
+    $path = storage_path('app') . '/' . $filename;
+
+    $file = File::get($path);
+    $type = File::mimeType($path);
+
+    $response = Response::make($file, 200);
+    $response->header("Content-Type", $type);
+
+    return $response;
+});

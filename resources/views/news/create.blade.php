@@ -11,6 +11,18 @@
     @endif
 </ul>
 
+@if(Session::has('message'))
+    <div class="alert alert-info">
+        {{Session::get('message')}}
+    </div>
+@endif
+
+@if(isset($message) && !empty($message))
+    <div class="alert alert-info">
+        {{$message}}
+    </div>
+@endif
+
 {!! Form::open(array('route' => 'news_store', 'class' => 'form', 'files'=> true)) !!}
 
 <div class="form-group">
@@ -31,9 +43,23 @@
 
 <div class="form-group">
     {!! Form::label('Image') !!}
-    {!! Form::file('image', null, 
+    {!! Form::file('image',
         array('required', 
               'class'=>'form-control')) !!}
+</div>
+
+<div class="form-group">
+    {!! Form::label('Start Date') !!}
+    {!! Form::date('start_date', \Carbon\Carbon::now(),
+        array('required',
+                  'class'=>'form-control')) !!}
+</div>
+
+<div class="form-group">
+    {!! Form::label('End Date') !!}
+    {!! Form::date('end_date', \Carbon\Carbon::now(),
+        array('required',
+                  'class'=>'form-control')) !!}
 </div>
 
 <div class="form-group">
