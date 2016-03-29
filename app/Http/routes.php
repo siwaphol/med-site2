@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    $top4news = \App\News::orderBy('updated_at')->take(4)->get();
+    $top4news = \App\News::orderBy('updated_at','DESC')->take(4)->get();
 
     return view('ball2', compact('top4news'));
 });
