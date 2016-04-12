@@ -4,9 +4,7 @@
 @include("partials._headcss")
 
 <body>
-  <div class="row">
-      @include("partials._navbar")
-  </div>
+  @include("partials._navbar")
 
   <div class="container-fluid">
     <!--CMU LOGO-->
