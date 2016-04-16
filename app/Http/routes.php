@@ -52,6 +52,9 @@ Route::get('research', function ()
     return view('research');
 });
 
+//Profile section
+Route::get('profile/create', 'ProfileController@create');
+Route::post('profile/store', 'ProfileController@store');
 Route::get('profile/{id}', function ($id)
 {
     $user = App\UserProfile::find($id);
@@ -67,12 +70,6 @@ Route::get('profile/{id}/edit', function ($id)
     $userEducations = App\UserEducation::where('user_profile_id', $id)->get();
 
     return view('frontend.profile', compact('user','userEducations'));
-});
-
-Route::get('profile/create', function ()
-{
-    // dont forget to create Form::open
-    return view('frontend.profile');
 });
 
 Route::get('api/profile', function (Request $request)
