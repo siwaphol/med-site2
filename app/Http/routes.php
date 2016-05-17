@@ -13,7 +13,9 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return view('ball2');
+    $top4news = \App\News::orderBy('updated_at','DESC')->take(4)->get();
+
+    return view('ball2', compact('top4news'));
 });
 
 Route::get("test", function() {
@@ -50,6 +52,9 @@ Route::get('research', function ()
     return view('research');
 });
 
+//Profile section
+Route::get('profile/create', 'ProfileController@create');
+Route::post('profile/store', 'ProfileController@store');
 Route::get('profile/{id}', function ($id)
 {
     $user = App\UserProfile::find($id);
@@ -67,12 +72,6 @@ Route::get('profile/{id}/edit', function ($id)
     return view('frontend.profile', compact('user','userEducations'));
 });
 
-Route::get('profile/create', function ()
-{
-    // dont forget to create Form::open
-    return view('frontend.profile');
-});
-
 Route::get('api/profile', function (Request $request)
 {
     $defaultPerPage = 10;
@@ -85,4 +84,24 @@ Route::get('api/profile', function (Request $request)
     }
 
     return $users;
+});
+
+//News section
+Route::get('news', ['as'=>'news', 'uses'=>'NewsController@create']);
+Route::get('news/{id}', 'NewsController@show');
+Route::get('news/{id}/edit', 'NewsController@edit');
+Route::post('news', ['as'=>'news_store', 'uses'=>'NewsController@store']);
+Route::post('news/{id}', ['as'=>'news_update', 'uses'=>'NewsController@update']);
+
+Route::get('upload_images/{filename}', function ($filename)
+{
+    $path = storage_path('app') . '/' . $filename;
+
+    $file = File::get($path);
+    $type = File::mimeType($path);
+
+    $response = Response::make($file, 200);
+    $response->header("Content-Type", $type);
+
+    return $response;
 });
