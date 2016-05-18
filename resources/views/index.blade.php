@@ -22,7 +22,17 @@
         @include("partials._sidemenu")
       </div>
       <div class="col-md-10">
-        @yield("content")
+          @if (isset($errors)&&count($errors) > 0)
+              <div class="alert alert-danger">
+                  <strong>Whoops!</strong><br>
+                  <ul>
+                      @foreach ($errors->all() as $error)
+                          <li>{{ $error }}</li>
+                      @endforeach
+                  </ul>
+              </div>
+          @endif
+          @yield("content")
       </div>
     </div>
 
