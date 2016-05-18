@@ -1,3 +1,0 @@
-@extends("index")
-
-@section("carousel")
