@@ -14,9 +14,15 @@
     {!! Form::label('time') !!}
     {!! Form::textarea('time') !!}
     <h2>ตารางสอบ</h2>
-    {!! Form::label('') !!}
+    {!! Form::label('exam_schedule') !!}
+    {!! Form::textarea('exam_schedule') !!}
     <h2>หลักเกณฑ์การให้คะแนน</h2>
     <h2>แผนการสอนและเอกสารประกอบการสอน</h2>
+    {!! Form::label('files') !!}
+    {!! Form::text('file_name') !!}
+    {!! Form::file('files') !!}
     <h2>ภาคการศึกษาก่อนหน้า</h2>
+    {!! Form::label('history') !!}
+    {!! Form::textarea('history') !!}
     {!! Form::close() !!}
 @endsection
