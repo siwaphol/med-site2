@@ -4,7 +4,7 @@
 
 <ul class="nav panel-list">
     <li class="hoe-has-menu">
-        <a href="{{url("/")}}">
+        <a href="{{url('/')}}">
             <span class="menu-text">Home</span>
             <span class="selected"></span>
         </a>
@@ -105,8 +105,8 @@
                 </a>
                 <ul class="hoe-sub-menu" style="display: none;">
                     <li class="hoe-has-menu">
-                        <a href="javascript:void(0)">
-                            <span class="menu-text">Medilicine</span>
+                        <a href="{{url('courses')}}">
+                            <span class="menu-text">Medicine</span>
                             <span class="selected"></span>
                         </a>    
                     </li>
@@ -141,7 +141,7 @@
 
 
     <li class="hoe-has-menu">
-        <a href="{{url("research")}}">
+        <a href="{{url('research')}}">
             <span class="menu-text">Research</span>
             <span class="selected"></span>
         </a>
