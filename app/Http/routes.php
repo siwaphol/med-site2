@@ -38,7 +38,8 @@ Route::get("ball", function()
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+    Route::get('course/create','CourseController@create');
+    Route::post('course/store','CourseController@store');
 });
 
 Route::get('browse', function ()
@@ -110,5 +111,5 @@ Route::get('upload_images/{filename}', function ($filename)
 Route::get('course/undergraduate', function(){
     return view('frontend.courses');
 });
-Route::get('course/create','CourseController@create');
+
 
