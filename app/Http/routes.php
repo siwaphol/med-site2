@@ -105,3 +105,10 @@ Route::get('upload_images/{filename}', function ($filename)
 
     return $response;
 });
+
+// Course Routes
+Route::get('course/undergraduate', function(){
+    return view('frontend.courses');
+});
+Route::get('course/create','CourseController@create');
+

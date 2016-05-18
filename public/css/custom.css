@@ -25,3 +25,14 @@
         color: white;
     }
 }
+
+@media (min-width: 767px) {
+    .img-responsive {
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+
