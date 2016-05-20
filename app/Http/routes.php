@@ -113,3 +113,7 @@ Route::get('course/undergraduate', function(){
 });
 
 
+Route::get('course/curriculum', function(){
+    return view('frontend.curriculum');
+});
+
