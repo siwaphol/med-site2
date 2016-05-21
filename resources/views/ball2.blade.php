@@ -42,7 +42,7 @@
 @stop
 
 @section("content")
-<div class="col-md-10">
+<div class="col-md-10 col-xs-12">
       <div class="row-md-6">
         <h4>Our Mission</h4>
           <p style="font-size: 14px;">The mission of the Department of Microbiology and Immunology is to conduct the best possible research and provide the most rigorous and inspiring training in the areas of microbiology, immunology, host-pathogen interaction and related fields. Through such activities, our goal is to improve human and animal health as well as to improve our ability to be responsible stewards of a fragile earth. Through this website, we hope to present an overview of our research and training activities and to inspire like-minded individuals to join us in our quest.
@@ -78,7 +78,7 @@
 
               @if(count($top4news) < 4)
                   @for($i=0; $i < 4 - count($top4news); $i++)
-                      <div class="col-md-6">
+                      <div class="col-md-6 col-xs-12">
                           <center>
                               <img src="{{asset("images/02.jpg")}}" width="300" height="258">
                               <br>
