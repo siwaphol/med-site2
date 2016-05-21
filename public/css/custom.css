@@ -34,3 +34,30 @@
         margin-bottom: 5px;
     }
 }
+
+/*CSS page curriculum*/
+.sp_hilight_thin{
+    font-size:14px;
+    font-weight:normal;
+    color: #900;
+    text-align:left;
+}
+.sp_topic{
+    font-size:14px;
+    font-weight:bold;
+    color:#9e76b4;
+    text-align:left;
+    
+}
+
+.sp_credit{
+    float:right;
+    vertical-align:top;
+    margin-right:50px;
+}
+
+.sq_topic2{
+    font-weight: bold;
+}
+
+/*end*/
