@@ -91,5 +91,6 @@
               @endif
           </div>
       </div>
+</div>
       <!--end news-->
 @stop

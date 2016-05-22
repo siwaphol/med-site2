@@ -9,7 +9,7 @@
   <div class="container-fluid">
     <!--CMU LOGO-->
     <div class="row">
-      <a href="{{url("/")}}"><img  src="{{asset("images/main_logo.png")}}" class="img-responsive">
+      <a href="{{url('/')}}"><img  src="{{asset("images/main_logo.png")}}" class="img-responsive">
       </a>
     </div>
     <!---end logo-->
