@@ -18,7 +18,7 @@
 
     <br>
     <div class="row">
-      <div class="col-md-2" id="hoe-left-panel">
+      <div class="col-md-2 hidden-xs" id="hoe-left-panel">
         @include("partials._sidemenu")
       </div>
       <div class="col-md-10">

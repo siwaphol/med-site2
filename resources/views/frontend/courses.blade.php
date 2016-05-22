@@ -13,7 +13,7 @@
   		<div class="col-md-12">
   		<table class="table table-bordered">
   			<thead>
-    		<tr>
+    		<tr style="background-color: #8e44ad; color: #ffffff;">
       			<th>#</th>
       			<th>รหัสวิชา</th>
       			<th>รายชื่อกระบวนวิชา</th>
@@ -22,14 +22,24 @@
   			<tbody>
     			<tr>
       				<th scope="row">1</th>
-      				<td>201110</td>
-      				<td>คณิตศาสตร์บูรณาการ (Integrated Mathematical Sciences )</td>
+      				<td><a href="#">201110</a></td>
+      				<td><a href="#">คณิตศาสตร์บูรณาการ (Integrated Mathematical Sciences )</a></td>
     			</tr>
     			<tr>
-      				<th scope="row">2</th>
-      				<td>201110</td>
-      				<td>คณิตศาสตร์บูรณาการ (Integrated Mathematical Sciences )</td>
-    			</tr>
+              <th scope="row">2</th>
+              <td><a href="#">204100</a></td>
+              <td><a href="#">เทคโนโลยีสารสนเทศ (Information Technology and Modern Life I )</a></td>
+          </tr>
+          <tr>
+              <th scope="row">3</th>
+              <td><a href="#">204101</a></td>
+              <td><a href="#">คอมพิวเตอร์เบื้องต้น (Introduction to Computer )</a></td>
+          </tr>
+          <tr>
+              <th scope="row">4</th>
+              <td><a href="#">204111</a></td>
+              <td><a href="#">วิทยาการคอมพิวเตอร์เบื้องต้น (Fundamentals of Computer Science )</a></td>
+          </tr>
   			</tbody>
 		</table>
 		</div>

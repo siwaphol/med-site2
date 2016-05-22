@@ -1,3 +1,4 @@
+
 @extends('second_template')
 
 @section('title', 'Browse Page')
