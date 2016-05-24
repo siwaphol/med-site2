@@ -11,7 +11,7 @@
           <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
               <ul class="nav navbar-nav navbar-right ">
                 <ul class="nav navbar-nav" >
-                    <li><a href="{{url("/")}}" style="color: #ffffff;">Home</a></li>
+                    <li><a href="{{url('/')}}" style="color: #ffffff;">Home</a></li>
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #ffffff;">Faculty & Staff<span class="caret"></span></a>
@@ -26,11 +26,11 @@
                         <ul class="dropdown-menu">
                             <li role="separator" class="divider"></li>
                             <li class="dropdown-header"><h4>Undergraduate</h4></li>
-                                <li><a href="#">Medilicine</a></li>
+                                <li><a href="{{url('curriculum')}}">Medilicine</a></li>
                             <li class="dropdown-header"><h4>Graduate</h4></li>
-                                <li><a href="#">Master of Science (M.Sc.)</a></li>
-                                <li><a href="#">Doctor of Philosophy (Ph.D.)</a></li>
-                                <li><a href="#">International Program</a></li>
+                                <li><a href="{{url('curriculum')}}">Master of Science (M.Sc.)</a></li>
+                                <li><a href="{{url('curriculum')}}">Doctor of Philosophy (Ph.D.)</a></li>
+                                <li><a href="{{url('curriculum')}}">International Program</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -38,10 +38,10 @@
                         <ul class="dropdown-menu">
                             <li role="separator" class="divider"></li>
                             <li class="dropdown-header"><h4>Undergraduate</h4></li>
-                                <li><a href="#">Medicine</a></li>
-                                <li><a href="#">Dentistry</a></li>
-                                <li><a href="#">Pharmacy</a></li>
-                                <li><a href="#">Nurse</a></li>
+                                <li><a href="{{url('courses')}}">Medicine</a></li>
+                                <li><a href="{{url('courses')}}">Dentistry</a></li>
+                                <li><a href="{{url('courses')}}">Pharmacy</a></li>
+                                <li><a href="{{url('courses')}}">Nurse</a></li>
                             <li class="dropdown-header"><h4>Graduate</h4></li>
                         </ul>
                     </li>
