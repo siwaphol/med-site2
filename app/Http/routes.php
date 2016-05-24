@@ -108,12 +108,12 @@ Route::get('upload_images/{filename}', function ($filename)
 });
 
 // Course Routes
-Route::get('course/undergraduate', function(){
+Route::get('courses', function(){
     return view('frontend.courses');
 });
 
 
-Route::get('course/curriculum', function(){
+Route::get('curriculum', function(){
     return view('frontend.curriculum');
 });
 

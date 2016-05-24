@@ -1,5 +1,5 @@
 <!-- List Manu Left-->
-<h4 style="font-size: 18px;">MICROBIOLOGY
+<!--<h4 style="font-size: 18px;">MICROBIOLOGY
 </h4>
 
 <ul class="nav panel-list">
@@ -153,46 +153,74 @@
             <span class="selected"></span>
         </a>
     </li>  
-</ul>
+</ul>-->
 <!--End List-->
 
 
+
+<h4 style="font-size: 18px;">MICROBIOLOGY
+</h4>
 <div class="nav-side-menu">
-    <!--<div class="brand">Brand Logo</div>-->
         <div class="menu-list">
   
             <ul id="menu-content" class="menu-content collapse out">
                 <li>
-                  <a href="#">Dashboard</a>
+                  <a href="{{url('/')}}">Home</a>
                 </li>
 
-
-                <li data-toggle="collapse" data-target="#service" class="collapsed">
-                  <a href="#">Services <span class="arrow"></span></a>
-                </li>  
-                <ul class="sub-menu collapse" id="service">
-                  <li>New Service 1</li>
-                  <li>New Service 2</li>
-                  <li>New Service 3</li>
+                <li  data-toggle="collapse" data-target="#faculty_Staff" class="collapsed">
+                Faculty & Staff<span class="arrow"></span>
+                </li>
+                <ul class="sub-menu collapse" id="faculty_Staff">
+                    <li><a href="#">Faculty</a></li>
+                    <li><a href="{{url('browse')}}">Staff</a></li>
+                    <li><a href="#">Graduate Student</a></li>
+                    <li><a href="#">Visiting Scholar & Postdocs</a></li>
                 </ul>
 
-
-                <li data-toggle="collapse" data-target="#new" class="collapsed">
-                  <a href="#">New <span class="arrow"></span></a>
+                <li  data-toggle="collapse" data-target="#curriculum" class="collapsed">
+                Curriculum<span class="arrow"></span>
                 </li>
-                <ul class="sub-menu collapse" id="new">
-                  <li>New New 1</li>
-                  <li>New New 2</li>
-                  <li>New New 3</li>
+                <ul class="sub-menu collapse" id="curriculum">
+                    <li  data-toggle="collapse" data-target="#curriculum_undergraduate" class="collapsed">
+                    Undergraduate<span class="arrow"></span>
+                    </li>
+                    <ul class="sub-menu collapse" id="curriculum_undergraduate">
+                        <li><a href="{{url('curriculum')}}">Medilicine</a></li>
+                    </ul>
+                    <li  data-toggle="collapse" data-target="#curriculum_graduate" class="collapsed">
+                    Graduate<span class="arrow"></span>
+                    </li>
+                    <ul class="sub-menu collapse" id="curriculum_graduate">
+                        <li><a href="{{url('curriculum')}}">Master of Science (M.Sc.)</a></li>
+                        <li><a href="{{url('curriculum')}}">Doctor of Philosophy (Ph.D.)</a></li>
+                        <li><a href="{{url('curriculum')}}">International Program</a></li>
+                    </ul>
                 </ul>
 
+                <li  data-toggle="collapse" data-target="#courses" class="collapsed">
+                Courses<span class="arrow"></span>
+                </li>
+                <ul class="sub-menu collapse" id="courses">
+                    <li  data-toggle="collapse" data-target="#courses_undergraduate" class="collapsed">
+                    Undergraduate<span class="arrow"></span>
+                    </li>
+                    <ul class="sub-menu collapse" id="courses_undergraduate">
+                        <li><a href="{{url('courses')}}">Medilicine</a></li>
+                        <li><a href="{{url('courses')}}">Dentistry</a></li>
+                        <li><a href="{{url('courses')}}">Pharmacy</a></li>
+                        <li><a href="{{url('courses')}}">Nurse</a></li>
+                    </ul>
+
+                    <li><a href="{{url('courses')}}">Graduate</a></li>
+                </ul>
 
                 <li>
-                  <a href="#">Profile</a>
+                  <a href="{{url('research')}}">Research</a>
                 </li>
 
                 <li>
-                  <a href="#">Users</a>
+                  <a href="#">Contact Us</a>
                 </li>
             </ul>
      </div>
