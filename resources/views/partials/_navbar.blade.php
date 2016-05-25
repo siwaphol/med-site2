@@ -46,8 +46,8 @@
                         </ul>
                     </li>
 
-                    <li><a href="{{url("research")}}" style="color: #ffffff;">Research</a></li>
-                    <li><a href="#" style="color: #ffffff;">Contact Us</a></li>
+                    <li><a href="{{url('research')}}" style="color: #ffffff;">Research</a></li>
+                    <li><a href="{{url('contact')}}" style="color: #ffffff;">Contact Us</a></li>
                 </ul>
             </ul>
           </div><!--/.nav-collapse -->

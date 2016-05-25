@@ -117,3 +117,7 @@ Route::get('curriculum', function(){
     return view('frontend.curriculum');
 });
 
+Route::get('contact', function(){
+    return view('frontend.contact');
+});
+

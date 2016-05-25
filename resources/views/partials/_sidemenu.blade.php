@@ -220,7 +220,7 @@
                 </li>
 
                 <li>
-                  <a href="#">Contact Us</a>
+                  <a href="{{url('contact')}}">Contact Us</a>
                 </li>
             </ul>
      </div>
