@@ -41,11 +41,18 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('course/create','CourseController@create');
     Route::post('course/store','CourseController@store');
 
-    Route::group(array('prefix'=>'/admin'),function (){
-        Route::get('curriculum', array('as'=>'admin.curriculum','use'=>'CurriculumController@index'));
+    Route::group(array('prefix'=>'admin'),function (){
+        Route::resource('curriculum','CurriculumController');
+//        Route::get('curriculum/create', array('as'=>'admin.curriculum.create',
+//            'use'=>'CurriculumController@index',));
+//        Route::post('curriculum','CurriculumController@store');
     });
-});
 
+    Route::post('save_curriculum','CurriculumController@store');
+});
+Route::get('filemanager/show', function () {
+    return View::make('backend/plugins/filemanager');
+});
 
 
 Route::get('browse', function ()
