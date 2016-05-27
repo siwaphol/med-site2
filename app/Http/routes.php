@@ -40,7 +40,13 @@ Route::get("ball", function()
 Route::group(['middleware' => ['web']], function () {
     Route::get('course/create','CourseController@create');
     Route::post('course/store','CourseController@store');
+
+    Route::group(array('prefix'=>'/admin'),function (){
+        Route::get('curriculum', array('as'=>'admin.curriculum','use'=>'CurriculumController@index'));
+    });
 });
+
+
 
 Route::get('browse', function ()
 {

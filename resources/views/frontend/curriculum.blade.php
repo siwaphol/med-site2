@@ -2,6 +2,9 @@
 @section("content")
 <div class="row">
   <div class="col-md-10">
+      <div class="form-group">
+          <a class="btn btn-default" href="{{url("admin/curriculum")}}">Edit curriculum</a>
+      </div>
 
     <table class="table" style="background-color: #8e44ad; color: #ffffff;">
       <tr>
