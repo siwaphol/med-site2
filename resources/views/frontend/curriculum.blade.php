@@ -16,7 +16,7 @@
       <dt>ปริญญาตรี หลักสูตร หลังปี 2554</dt>
     <dl>
 
-    <div class="row">
+    <div class="row container-fluid">
         <dl class="dl-horizontal">
           <dt>ชื่อปริญญา  :</dt>
           <dd>วิทยาศาสตรบัณฑิต (วิทยาการคอมพิวเตอร์) วท.บ. (วิทยาการคอมพิวเตอร์)</dd>
