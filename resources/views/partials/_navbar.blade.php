@@ -26,7 +26,7 @@
                         <ul class="dropdown-menu">
                             <li role="separator" class="divider"></li>
                             <li class="dropdown-header"><h4>Undergraduate</h4></li>
-                                <li><a href="{{url('curriculum')}}">Medilicine</a></li>
+                                <li><a href="{{url('curriculum')}}">Medicine</a></li>
                             <li class="dropdown-header"><h4>Graduate</h4></li>
                                 <li><a href="{{url('curriculum')}}">Master of Science (M.Sc.)</a></li>
                                 <li><a href="{{url('curriculum')}}">Doctor of Philosophy (Ph.D.)</a></li>
@@ -46,8 +46,8 @@
                         </ul>
                     </li>
 
-                    <li><a href="{{url("research")}}" style="color: #ffffff;">Research</a></li>
-                    <li><a href="#" style="color: #ffffff;">Contact Us</a></li>
+                    <li><a href="{{url('research')}}" style="color: #ffffff;">Research</a></li>
+                    <li><a href="{{url('contact')}}" style="color: #ffffff;">Contact Us</a></li>
                 </ul>
             </ul>
           </div><!--/.nav-collapse -->
