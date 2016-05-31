@@ -2,32 +2,21 @@
 
 @section('content')
 
-    @if (Session::has('flash_notification.message'))
-        <div class="alert alert-{{ Session::get('flash_notification.level') }}">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-
-            {{ Session::get('flash_notification.message') }}
-        </div>
-    @endif
-
-    <a class="btn btn-default" href="{{url('admin/curriculum/medicine/edit')}}">Medicine</a>
-    <a class="btn btn-default" href="{{url('admin/curriculum/master/edit')}}">Master</a>
-    <a class="btn btn-default" href="{{url('admin/curriculum/doctor/edit')}}">Doctor</a>
-    <a class="btn btn-default" href="{{url('admin/curriculum/inter/edit')}}">Inter</a>
+@include('backend.curriculum.partials._noti_and_buttons')
 
     <section class="content-header">
-        <h1> Curriculum <small> | Add Curriculum</small> </h1>
+        <h1> Curriculum <small> | Edit Curriculum For {{$curriculum->category}}</small> </h1>
         <ol class="breadcrumb">
             <li><a href="{!! url('/admin/curriculum') !!}"><i class="fa fa-bookmark"></i> Curriculum</a></li>
-            <li class="active">Add Curriculum</li>
+            <li class="active">Edit  Curriculum</li>
         </ol>
     </section>
     <br>
     <br>
     <div class="container">
-    {!! Form::open(array('route' => 'admin.curriculum.update','method'=>'post')) !!}
-        <input type="hidden" name="category">
-        <input type="hidden" name="period">
+    {!! Form::open(array('route' => array('admin.curriculum.update', $curriculum->category),'method'=>'PATCH')) !!}
+        <input type="hidden" name="category" value="{{$curriculum->category}}">
+        <input type="hidden" name="period" value="{{$curriculum->period}}">
     <!-- Title -->
         {{--<div class="control-group {!! $errors->has('title') ? 'has-error' : '' !!}">--}}
             {{--<label class="control-label" for="title">Title</label>--}}
@@ -52,7 +41,7 @@
         <div class="control-group {!! $errors->has('content') ? 'has-error' : '' !!}">
             <label class="control-label" for="title">Content</label>
 
-            <div class="controls"> {!! Form::textarea('content', null, array('class'=>'form-control', 'id' => 'content',
+            <div class="controls"> {!! Form::textarea('content', $curriculum->content, array('class'=>'form-control', 'id' => 'content',
                 'placeholder'=>'Content', 'value'=>Input::old('content'))) !!}
                 @if ($errors->first('content')) <span class="help-block">{!! $errors->first('content') !!}</span> @endif
             </div>

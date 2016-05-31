@@ -2,18 +2,7 @@
 
 @section('content')
 
-    @if (Session::has('flash_notification.message'))
-        <div class="alert alert-{{ Session::get('flash_notification.level') }}">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-
-            {{ Session::get('flash_notification.message') }}
-        </div>
-    @endif
-
-    <a class="btn btn-default" href="{{url('admin/curriculum/medicine/edit')}}">Medicine</a>
-    <a class="btn btn-default" href="{{url('admin/curriculum/master/edit')}}">Master</a>
-    <a class="btn btn-default" href="{{url('admin/curriculum/doctor/edit')}}">Doctor</a>
-    <a class="btn btn-default" href="{{url('admin/curriculum/inter/edit')}}">Inter</a>
+@include('backend.curriculum.partials._noti_and_buttons')
 
     <section class="content-header">
         <h1> Curriculum <small> | Add Curriculum</small> </h1>
@@ -25,7 +14,7 @@
     <br>
     <br>
     <div class="container">
-    {!! Form::open(array('route' => 'admin.curriculum.store','method'=>'post')) !!}
+    {!! Form::open(array('route' => 'admin.curriculum.store', 'method' => 'POST')) !!}
         <input type="hidden" name="category">
         <input type="hidden" name="period">
     <!-- Title -->

@@ -38,18 +38,34 @@ class CurriculumController extends Controller
         $curriculum = Curriculum::where('category',$category)
             ->first();
 
-        return view('backed.curriculum.show',compact('curriculum'));
+        return view('backend.curriculum.show',compact('curriculum'));
     }
 
     public function edit($category)
     {
         $curriculum = Curriculum::where('category',$category)
             ->first();
+        if(is_null($curriculum)){
+            $curriculum = new Curriculum();
+            $curriculum->category = $category;
+            $curriculum->period = "";
+            $curriculum->save();
+        }
 
-        return view('backed.curriculum.edit',compact('curriculum'));
+        return view('backend.curriculum.edit',compact('curriculum'));
     }
-    public function update($id)
+    public function update($category)
     {
-        dd(\Input::all());
+        // dd(\Input::all());
+        try {
+            $curriculum = Curriculum::where('category',$category)
+            ->first();
+            $curriculum->update(\Input::all());
+            Flash::message('News was successfully updated');
+
+            return \Redirect::route('admin.curriculum.edit',$category);
+        } catch (ValidationException $e) {
+            return \Redirect::route('admin.curriculum.edit',$category)->withInput()->withErrors($e->getErrors());
+        }
     }
 }
