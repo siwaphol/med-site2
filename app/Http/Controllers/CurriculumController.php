@@ -38,7 +38,7 @@ class CurriculumController extends Controller
         $curriculum = Curriculum::where('category',$category)
             ->first();
 
-        return view('backend.curriculum.show',compact('curriculum'));
+        return view('curriculum.show',compact('curriculum'));
     }
 
     public function edit($category)

@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get("test", function() {
 	return "testing";
-} );
+});
 
 Route::get("ball", function()
 {
@@ -41,11 +41,10 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('course/create','CourseController@create');
     Route::post('course/store','CourseController@store');
 
+    Route::get('curriculum/{category}','CurriculumController@show');
+
     Route::group(array('prefix'=>'admin'),function (){
         Route::resource('curriculum','CurriculumController');
-//        Route::get('curriculum/create', array('as'=>'admin.curriculum.create',
-//            'use'=>'CurriculumController@index',));
-//        Route::post('curriculum','CurriculumController@store');
     });
 
     Route::post('save_curriculum','CurriculumController@store');
@@ -129,6 +128,7 @@ Route::get('courses', function(){
 Route::get('curriculum', function(){
     return view('frontend.curriculum');
 });
+// Route::resource('curriculum','CurriculumController');
 
 Route::get('contact', function(){
     return view('frontend.contact');
